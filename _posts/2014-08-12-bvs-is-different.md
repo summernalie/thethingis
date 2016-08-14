@@ -1,0 +1,207 @@
+---
+layout: post
+cover: 'assets/images/cover7.jpg'
+title: 'The thing is... BvS is Different | Movie Review for Batman v Superman : Dawn of Justice'
+title2: 'BvS is Different'
+title3: '...<span class="b">B</span><span class="subscript">v</span><span class="s">S</span> is Different'
+css:   'assets/css/style-02.css'
+date:   2014-08-12 10:18:00
+tags: fables fiction
+subclass: 'post tag-test tag-content'
+categories: 'casper'
+navigation: False
+logo: 'assets/images/ghost.png'
+---
+
+<section class="container-fluid intro">
+<div class="row">
+
+<div class="col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+
+<h3 class="warning">*Warning* Spoilers ahead. If you haven't seen the movie yet, I would encourage you to watch it before you read this.</h3>
+
+</div>
+</div>
+
+</section>
+
+<section class="container-fluid aside">
+<div class="overlay"> </div>
+<div class="row">
+
+<div class="col-sm-10 col-sm-offset-1">
+
+<p data-scroll-reveal="enter from the top after 0.2s"><span class="italic">Just on a side note;</span> several months ago, during the height of my anticipation for the then upcoming Batman v Superman: Dawn of Justice movie, a funny realization struck me. Clark Kent's mother is named Martha Kent. And Bruce Wayne's mother is named Martha Wayne. I was marveling (no pun intended), that two of DC Comics' greatest heroes have mothers with the exact same first name. I even joked about it with friends, saying 'you would think that they would have at least tried to find different names for such prominent characters in the story.' I mildly wondered to myself if they would have to awkwardly shrug that off in the film and make it not seem like such a blaring coincidence. Never in a million years did I think that that one idea would end up being the lynch pin for the events in BvS. </p>
+</div>
+</div>
+
+</section>
+
+
+<section class="container-fluid review-sec1">
+<div class="overlay"> </div>
+<div class="row">
+
+<div class="col-sm-8 col-sm-offset-2">
+
+<p>Batman v Superman: Dawn of Justice was probably the most unique movie I have ever seen in the superhero genre. I cannot with a clear conscience say that it was the best superhero movie I have ever seen. But without a doubt, it was the superhero movie that made me think the most. Walking out of the theatre, my mind was reeling with a plethora of mysteries, plot points, character arcs and questions. Sitting in the theatre, I hardly had time to process one scene of intense character drama, before I was whisked away to another scene of epic special effects, before cutting into yet another scene of dense philosophical discussion. I couldn’t switch my brain off for even a second, because even a spectacular fight sequence was crafted with such care and detail, that there were dozens of appreciable elements floating in the nooks and crannies of the scene. Sometimes the editing even felt jarring and erratic. </p>
+<p>There was just too much to be seen, there was just so much of this world to be explored, and if I blinked I would miss it. So I soaked it all in. BvS kept me on my toes the entire time… <span class="italic">and this was a good thing.</span>
+</p>
+</div>
+</div>
+
+</section>
+
+
+<section class=" review-sec2">
+<div class="container">
+<div class="row">
+
+<div class="col-sm-12">
+
+
+</div>
+</div>
+</div>
+</section>
+<div class="container-fluid">
+<div class="row">
+<div id="levity">
+<div class="overlay"></div>
+<div class="container">
+<p>As a general rule I have appreciated almost all comic book movie adaptations (I could even appreciate the bold choices in the most recent Fantastic Four movie/disaster, even if that movie was so fatally flawed). But I believe to a certain extent, any Superhero movie that succeeded in the world of audiences and critics, has followed a similar formula; a certain flavor sprinkled throughout that makes it universally accessible. Have a linear story to follow. Focus on only a few central plots. Throw in some easter eggs for the die-hard fans. And levity. Lots of levity. Even in the aftermath of the world literally crashing down around our heroes, they're in the mood for shawarma. Key to success: Have. Plenty. Of. Levity.
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<section class=" review-sec3">
+<div class="container">
+<div class="row">
+
+<div class="col-sm-12">
+
+<p>Batman v Superman breaks pretty much all these rules. It's story is non-linear, jumping without warning between the past and the present, dreams and reality. It juggles a multitude of plots varying in size and significance. It's stuffed full of nods to comic fans, that left most general audiences scratching their heads.</p>
+</div>
+<div class="col-sm-6">
+<p>And as for levity... well, I suppose Lex Luthor was a little comedic? No? Maybe? No?</p>
+</div>
+<div class="col-sm-6">
+<img src="assets/img/funnylex.gif" class="img-responsive" />
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="container-fluid" id="points">
+<div class="row">
+<div class="col-sm-12 text-center">
+<div class="container">
+<div class="row point" id="characters" data-scroll-reveal="enter from the bottom after 0.2s">
+<div class="col-sm-12 col-md-6 col-lg-7">
+<h2>Characters</h2>
+<p>The characters felt mature and had depth. Everyone seemed to be haunted by something. Batman, with the loss of his parents, his morals, his hope. Superman, with the consequences and guilt of his attempts at heroism. Lex Luthor, with the psychological trauma caused by his father and the cynicism of God and power. Wonder Woman, with the loss of her faith in the good of humanity. Even the ordinary people of society were dealing with the aftermath of the events of Man of Steel, and divisive views of Superman. So much personal baggage was woven throughout this movie; some blatantly obvious (Bruce Wayne haunted by his parent's death), some merely hinted at in snatches of dialogue (Lex offhandedly referencing his difficult childhood with his father). Everyone felt real, especially mankind's polarizing response to Superman's presence. Let's be real, if a superhuman alien showed up in our world today, a good portion of the population would respond with suspicion and fear, and they would be justified in doing so. Despite all the mythic grandeur of this movie, the people it depicted felt surprisingly grounded.</p>
+</div>
+<div class="col-sm-12 col-md-6 col-lg-5">
+<div class="point-img">
+<div id="char-superman" data-scroll-reveal="enter from the top after 0.2s"><img src="assets/img/character-superman.png" class="img-responsive" />
+</div>
+
+<div id="char-wonderwoman" data-scroll-reveal="enter from the right after 0.2s"><img src="assets/img/character-wonderwoman.png" class="img-responsive" />
+<div id="char-batman" data-scroll-reveal="enter from the left after 0.2s"><img src="assets/img/character-batman.png" class="img-responsive" />
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row point" id="action" data-scroll-reveal="enter from the bottom after 0.2s">
+<div class="col-sm-12 col-md-6 col-lg-7 pull-right">
+<h2>Action</h2>
+<p>The action was like watching motion art. Brutal fight scenes were difficult to watch but at the same time transfixing in their sheer fluidity and beauty. Each battle had its own visual style that captured the atmosphere of the situation. Batman's fight with two dozen thugs felt tight and up-close to the camera, brutal to the point that we could feel the pain of each punch. The namesake fight between Superman and Batman was more spread out over various environments and surroundings as the heroes pushed and threw each other around with furiosity. The final battle with Doomsday was the very definition of epic with each hero bringing their own fighting style and skills to the match. It was nothing short of gleeful to see Wonder Woman take the lead in aggressively attacking Doomsday and showing her prowess as a centuries-old warrior.</p>
+</div>
+<div class="col-sm-12 col-md-6 col-lg-5 point-img">
+<img src="assets/img/underfoot.jpg" class="img-responsive" />
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="row point" id="story">
+<div class="overlay"></div>
+<div class="col-sm-12" data-scroll-reveal="enter from the bottom after 0.2s">
+<h2>Story</h2>
+<p>But what captivated me most about BvS, was the story arc of the characters. Especially the main two. Batman started as a jaded, wasted, shell of a man, brutally branding the criminals he apprehends, and outright refusing to see any good in the world around him, most specifically in Superman. Superman for his part was struggling with the increasing doubt as to his true purpose on earth, even as he felt the weight of guilt for his actions. He was torn between the responsibility of protecting the world around him while also protecting the only family he has left on this planet, the two women he loves; Martha Kent and Lois Lane.</p>
+<p>While Batman and Superman were pitched as visual juxtapositions of each other, Day vs Night, the metaphor runs deeper. Batman is devoid of hope. Superman is the very embodiment of hope.</p>
+
+<p>Batman only sees darkness in people, so he is blinded to the goodness of Superman. Superman on the other hand, is so willing to believe the best in people, that he fails to see the threat in them. This was masterfully captured in the senate explosion scene. The look of utter defeat and shame on Superman's face in the immediate aftermath of the explosion, showed his realization that his naive optimism had been his biggest hindrance. But by the end, Superman succeeds in being the ultimate beacon of light and hope, awakening hope in the dark shadows of Batman's life. The change in Batman from the beginning of the movie to the end is palpable. And that is perhaps Superman's greatest achievement in a movie titled Batman v Superman.</p>
+</div>
+
+<!--<div class="col-sm-12 col-md-6 col-lg-5 point-img" data-scroll-reveal="enter from the bottom after 0.2s">
+SENATE EXPLOSION AFTERMATH IMAGE 
+</div>-->
+</div>
+
+<div class="container">
+<div class="row point" id="performances">
+<div class="col-sm-12">
+<h2>Performances</h2>
+</div>
+<div class="col-sm-6" data-scroll-reveal="enter from the bottom after 0.2s">
+<p>The acting in this movie was spectacular. Henry Cavill was brilliant as a layered and conflicted Superman that for once, we could all relate to. Ben Affleck shined as a beaten and brutal Batman. And Gal Gadot, while having minimal screen time, electrified every scene she was in.</p>
+
+<div class="row">
+<div class="col-sm-12">
+<p>On a personal note, it felt amazing to see a woman in a superhero movie depicted with such grace, beauty and power, without being relegated to eye-candy and objectification to please the teenage fanboys. (ahem... Black Widow).
+</p>
+</div>
+<div class="col-sm-12">
+<img src="assets/img/galgadot.jpg" class="img-responsive" />
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<img src="assets/img/clark.jpg" class="img-responsive" />
+<img src="assets/img/bruce.jpg" class="img-responsive" />
+</div>
+</div>
+
+
+<div class="row point" id="others">
+<div class="col-sm-12">
+<h3>Other points of interest</h3>
+
+
+<div class="row list">
+<div class="col-sm-4"><h4>Visuals</h4> Zack Snyder's knack for creating breathtaking visuals is evidenced throughout the movie. An exorbitant amount of attention to detail shines through, and scenes are shot in exciting perspectives and angles. There's are also heavy religious references throughout the movie; Superman obviously being a Christ-like figure. I noticed this especially in the scene where Superman's dead body is carefully handed down from a height by Batman to Wonder Woman, and is transferred to the lap of a weeping Lois Lane. It visually played out similarly to the Biblical moment when Jesus' body is brought down from the cross and lain in his mother Mary's lap. Powerful and captivating imagery.</div>
+<div class="col-sm-4"><h4>Plot Twists</h4> Warner Bros. kind of screwed up by revealing too much of the movie's main beats in pre-release trailers. However, there were still a few moments in the movie that hit me out of nowhere. The explosion at the Senate for one (Granny's Peach Tea, anyone?). But in a much bigger way, the death of Superman at the end was completely unexpected and a bold move to make. Call Zack Snyder what you like, but a predictable storyteller he most certainly is not.
+</div>
+<div class="col-sm-4"><h4>Score</h4> Hanz Zimmer and Junkie XL have crafted a masterpiece of a score which truly becomes its own character in the movie. It was good to hear the epic and moving Superman theme from Man of Steel reprised, and Lex Luthor's theme expertly conveys the character's intrigue and overall creepiness. If there was such a thing as the quintessential comic supervillain theme, this would be it. But the standout track is without a doubt the Wonder Woman theme. I challenge anyone to listen to it and not feel like they could muster up the energy to break down a door; it's the definition of kick-ass.</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+</section>
+
+<section id="summary">
+<div class="overlay">
+<div class="container">
+<div class="row text-center">
+<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+<h4 data-scroll-reveal="enter from the bottom after 0.4s">
+<p>In all honesty, it is mildly exhausting to watch BvS. Because it isn't a relaxing movie. It will not let its audience settle into any sort of comfort zone. Above all, it makes you think. And some people may not enjoy that in a superhero genre movie. And that's fair. But personally, it was refreshing to not have everything spelt out for me, and to have to infer the motivations and histories of characters. Yes BvS was exhausting, but it was exhausting like a great work-out that leaves you tired but energized. If there's one hallmark of Batman v Superman: Dawn of Justice, it was that it was different, but the thing is... I loved that about it.</p>
+</h4>
+</div>
+</div>
+</div>
+</div>
+
+</section>
