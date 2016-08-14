@@ -1,0 +1,441 @@
+@font-face {
+    font-family: 'Lifecraft';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/thethingis/assets/fonts/lifecraft/LifeCraft.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/montserrat/Montserrat-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat/Montserrat-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat/Montserrat-Bold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/montserrat/Montserrat-ExtraBold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/montserrat/Montserrat-Black.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/montserrat/Montserrat-SemiBold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+   src: url('../fonts/montserrat/Montserrat-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/montserrat/Montserrat-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat/Montserrat-Light.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+     src: url('../fonts/montserrat/Montserrat-UltraLight.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/montserrat/Montserrat-UltraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat/Montserrat-UltraLight.ttf')  format('truetype');
+}
+
+html {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e6e44d+0,ffffff+100 */
+    /*background: url('/thethingis/lotr/assets/images/old_map.png') repeat;*/
+    
+}
+body {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    background-color: transparent;
+    /*background-image: url(/thethingis/lotr/assets/images/tree.png);*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #000;
+    background: #000;
+    overflow: hidden;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 0;
+    line-height: 1.7;
+}
+.bold {
+    font-weight: 700;
+}
+.emph {
+    font-style: italic;
+    
+}
+
+h1 {
+    font-family: 'Lifecraft', 'Open Sans', sans-serif;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 40px;
+    color: #000;
+    line-height: 50px;
+}
+.subheading {
+     font-family: 'Lifecraft', 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #000;
+}
+#menu.shrink h1 {
+    font-size: 22px;
+    line-height: 24px;
+}
+#menu #switch {
+    width: 160px;
+    text-align: center;
+    float: right;
+    background: rgba(255,255,255, 0.9);
+    color: #000;
+    padding: 7px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 10px;
+    border: none;
+    display: block;
+    -webkit-transition: all 0.5s ease 1s;
+    -moz-transition: all 0.5s ease 1s;
+    -o-transition: all 0.5s ease 1s;
+    transition: all 0.5s ease 1s;
+}
+#menu.shrink #switch {
+    width: 160px;
+    margin: 10px;
+}
+#splash {
+    background: #000;
+    top: 0;
+    padding: 0;
+    z-index: 99999;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+#splash span {
+    font-family: 'Lifecraft', 'Open Sans', sans-serif;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    text-align: center;
+    font-size: 50px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+}
+#splash .splash-half {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+    position: relative;
+    background: #fff;
+}
+#splash .splash-half img {
+    opacity: 0.8;
+    width: 100%;
+    position: absolute;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#splash .splash-half:hover img {
+    opacity: 1;
+}
+
+#page-content {
+    opacity: 0;
+    -webkit-transition: all 2s ease 1s;
+    -moz-transition: all 2s ease 1s;
+    -o-transition: all 2s ease 1s;
+    transition: all 2s ease 1s;
+}
+
+
+#intro {
+    min-height: 600px;
+    padding-top: 100px;
+}
+.orc #intro {
+    background: #7b1217;
+    background: url(../img/warcraft/red-bg.jpg);
+    background-size: cover;
+}
+.human #intro {
+    background: #29498b;
+    background: url(../img/warcraft/blue-bg.jpg);
+    background-size: cover;
+}
+#intro h1 {
+    color: #ada8a8;
+    font-size: 45px;
+    font-weight: 300;
+    text-shadow: 2px 2px 5px #000;
+}
+#intro img {
+    display: inline-block;
+}
+#intro h1 span {
+    width: 100%;
+    display: block;
+    /*margin-bottom: 20px;*/
+}
+
+
+
+.orc .subheading {
+    color: #a1141f;
+}
+.human .subheading {
+    color: #29498b;
+}
+
+
+section {
+    padding: 30px 0;
+    position: relative;
+    color: #0a0d00;
+}
+section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.spacer {
+    max-height: 400px;
+    overflow: hidden;
+}
+/* SECTIONS */
+.orc #sec1 {
+    background: #290000;
+    color: #fff;
+}
+.human #sec1 {
+    background: #000229;
+    color: #fff;
+}
+
+#sec3,
+#sec4 {
+    background: #fff;
+}
+#sec3 p,
+#sec4 p {
+    font-size: 16px;
+    font-weight: 200;
+}
+.orc #sec3 p,
+.orc #sec4 p {
+    color: #a1141f;
+    line-height: 1.7;
+}
+.human #sec3 p,
+.human #sec4 p {
+    color: #29498b;
+    line-height: 1.7;
+}
+#sec3 img {
+    margin: 0 20px 20px 0;
+}
+#sec2 p {
+        color: #fff;
+    /*background: rgba(0, 0, 0, 0.8);*/
+    padding: 20px;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 2;
+}
+.orc #sec2 {
+    background: url('../img/warcraft/orc-bg.jpg') repeat;
+}
+.human #sec2 {
+    background: url('../img/warcraft/human-bg.jpg') repeat;
+}
+
+.orc #sec5 {
+    background: #290000;
+    color: #fff;
+}
+.human #sec5 {
+    background: #000229;
+    color: #fff;
+}
+#sec5 p {
+    font-size: 16px;
+    font-weight: 200;
+}
+.orc #sec6 {
+    background: #fff;
+    color: #a1141f;
+}
+.human #sec6 {
+    background: #fff;
+    color: #29498b;
+}
+
+#sec6 p {
+    font-weight: 400;
+    font-size: 18px;
+}
+.battle {
+    background: #000;
+}
+.battle img {
+    width: 100%;
+}
+
+#sec7 {
+    padding: 0;
+    float: left;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    z-index: 9;
+}
+#sec7 > div {
+    width: 50%;
+    float: left;
+}
+.orc #sec8 {
+     background: url('../img/warcraft/orc-bg.jpg') repeat;
+}
+.human #sec8 {
+     background: url('../img/warcraft/human-bg.jpg') repeat;
+}
+#note img {
+    width: 400px;
+    float: left;
+    margin: 0 20px 10px 0;
+}
+#note p {
+    color: #fff;
+}
+#sec8 p {
+        color: #fff;
+    /*background: rgba(0, 0, 0, 0.8);*/
+    padding: 20px;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 2;
+}
+#sec9 {
+    padding: 0;
+    position: relative;
+}
+#sec9 p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10%;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+.myfooter {
+    padding: 10px 0;
+}
+#menu,
+.myfooter {
+    background: #000;
+}
+
+
+@media screen and (max-width: 991px) {
+    #menu.shrink h1 {
+        font-size: 20px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #menu.shrink h1 {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    #intro h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #intro h1 span {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    #menu #switch {
+        padding: 5px 15px;
+        font-size: 13px;
+        margin-top: 90px;   
+    }
+    #menu.shrink #switch {
+        margin: auto;
+    float: none;
+        margin-top: 60px;
+    }
+    #sec9 p {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #splash .splash-half {
+        width: 100%;
+        height: 50%;
+    }
+    #splash span {
+        top: 50%;
+        font-size: 30px;
+        margin-top: -40px;
+    }
+    
+}

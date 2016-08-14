@@ -1,0 +1,54 @@
+/*====================================
+        Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% Free To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDIT US AND TELL YOUR FRIENDS ABOUT US
+
+      Color: Red
+  ======================================*/
+
+/*=====================================
+  NAVBAR STYLES 
+    ===================================*/
+
+
+
+
+/*=====================================
+  HEADERS STYLES 
+    ===================================*/
+
+
+.header-sec .overlay{
+    background:rgba(0, 0, 0, 0.5);
+}
+
+  /*=====================================
+  TESTIMONIALS STYLES 
+    ===================================*/
+
+.testi-sec .overlay{
+    background:rgba(0, 0, 0, 0.5);
+}
+ 
+
+/*=====================================
+  PRICING STYLES 
+    ===================================*/
+
+.single-price {
+    background-color:rgba(134, 8, 13, 1);
+}
+.multi-price {
+    background-color:rgb(160, 11, 16);
+}
+/*=====================================
+  FOOTER STYLES 
+    ===================================*/
+
+ .myfooter {
+    background-color:#B31131;
+}

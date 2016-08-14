@@ -1,0 +1,525 @@
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/montserrat/Montserrat-Regular.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat/Montserrat-Bold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/montserrat/Montserrat-ExtraBold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/montserrat/Montserrat-Black.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/montserrat/Montserrat-SemiBold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/montserrat/Montserrat-Light.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/montserrat/Montserrat-UltraLight.ttf');
+    /* IE9 Compat Modes */
+}
+
+body {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+
+#logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    display: block;
+    width: 300px;
+    -webkit-transition: all 0.5s ease 1s;
+    -moz-transition: all 0.5s ease 1s;
+    -o-transition: all 0.5s ease 1s;
+    transition: all 0.5s ease 1s;
+}
+#logo img {
+    max-width: 100%;
+}
+#logo.shift {
+    left: 10px;
+    margin-left: 0;
+    width: 200px;
+}
+
+h1 {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    text-shadow: 2px 2px #ff0000;
+}
+
+h1 .b {
+    /*color: #2a2a2a;*/
+}
+
+h1 .s {
+    /*color: #9f0925;*/
+}
+
+h1 .subscript {
+    /*color: #d1b600;*/
+    
+    font-size: 35px;
+    font-weight: 900;
+}
+
+h2 {
+    padding-top: 50px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    color: #000;
+}
+
+h3 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+section {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.just-pad {
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+p {
+    padding: 10px 0px;
+}
+/*=====================================
+  NAVBAR STYLES 
+    ===================================*/
+
+.logo-custom {
+    max-height: 30px
+}
+
+#menu {
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.3);
+    background: url(../img/silkscreen.svg), rgba(0, 0, 0, 0.3);
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.5s ease 1s;
+    -moz-transition: all 0.5s ease 1s;
+    -o-transition: all 0.5s ease 1s;
+    transition: all 0.5s ease 1s;
+}
+
+#menu.shrink {
+    height: 60px;
+    background: #000;
+}
+
+#menu h1 {
+    opacity: 0;
+      
+    color: #fff;
+    text-shadow: none;
+    font-size: 26px;
+    margin: 0;
+    position: absolute;
+    left: 220px;
+    top: 15px;
+    -webkit-transition: all 0.5s ease 1s;
+    -moz-transition: all 0.5s ease 1s;
+    -o-transition: all 0.5s ease 1s;
+    transition: all 0.5s ease 1s;
+}
+
+#menu.shrink h1 {
+    opacity: 1;
+    
+}
+
+.navbar-inverse {
+    background: #ff0000;
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #FFF;
+}
+
+.home-mail {
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 5px;
+}
+/*=====================================
+  HEADERS STYLES 
+    ===================================*/
+
+.header-sec {
+    margin-top: 0;
+    min-height: 500px;
+    padding-bottom: 60px;
+    /*background: url(../img/bvs-head.jpg) no-repeat top center;*/
+     background: url(../img/bvs-head.jpg) no-repeat top center;
+    background: url(../img/silkscreen.svg), url(../img/bvs-head.jpg);
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    padding: 0;
+    /*-webkit-background-size: cover;
+    background-size: cover;*/
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.header-sec .overlay {
+    min-height: 500px;
+    background: rgba(210, 70, 89, 0.30);
+}
+
+.header-sec h1 {
+    color: #fff;
+    padding-top: 250px;
+}
+/*=====================================
+  TESTIMONIALS STYLES 
+    ===================================*/
+
+.testi-sec {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background: url(../img/final.jpg) no-repeat center center;
+    background: url(../img/silkscreen.svg), url(../img/final.jpg);
+    background-position: center bottom;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    padding: 0;
+    color: #fff;
+    min-height: 500px;
+    background-attachment: fixed;
+}
+
+.testi-sec .overlay {
+    background: rgba(0, 0, 0, 0.80);
+    min-height: 500px;
+}
+
+.testi-sec h3 {
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.testi-sec h4 {
+    font-weight: 200;
+    margin-top: 60px;
+    line-height: 30px;
+}
+/*=====================================
+  PRICING STYLES 
+    ===================================*/
+
+.price-sec {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    color: #fff;
+}
+
+.price-sec span {
+    font-size: 90px;
+}
+
+.bat {
+    background: url(../img/batman.jpg) no-repeat;
+    background: url(../img/silkscreen.svg), url(../img/batman.jpg);
+    background-position: 0 0;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    padding: 50px;
+    min-height: 550px;
+}
+.bat h1 {
+    text-shadow: 2px 2px #1a42da;
+}
+
+.sup {
+    background: url(../img/batman.jpg) no-repeat;
+    background: url(../img/silkscreen.svg), url(../img/superman.jpg);
+    background-position: 0 0;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    padding: 50px;
+    min-height: 550px;
+}
+
+.bat .overlay,
+.sup .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.bat .overlay {
+    background-color: rgba(11, 27, 86, 0.4);
+}
+
+.sup .overlay {
+    background-color: rgba(141, 20, 42, 0.4);
+}
+#showdown {
+    overflow-x: hidden;
+}
+.showdown-list {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+.bat .showdown-list .weakness {
+    color: #1a42da;
+    font-weight: 200;
+}
+.sup .showdown-list .weakness {
+    color: #ff0000;
+    font-weight: 200;
+}
+/*=====================================
+  POINTS STYLES 
+    ===================================*/
+#points h1 {
+    margin: 70px 0;
+}
+#points p {
+    text-align: left;
+}
+#points h2 {
+    margin: 0 0 15px 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    text-shadow: 2px 2px #ff0000;
+}
+.point {
+    padding: 40px 0;
+}
+
+#points #batfleck {
+    /*background: url(../img/BatmanReveal.gif) top right no-repeat;*/
+}
+.shudder {
+    color: #0b1b56;
+    font-size: 12px;
+    font-weight: 900;
+    font-style: italic;
+}
+#points #wonderwoman h2 {
+    text-shadow: 2px 2px #dfd208;
+}
+
+.wr-issues .issue {
+    display: table;
+    padding: 10px 5px 5px 5px;
+}
+.wr-issues .issue span {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    box-sizing: content-box;
+    padding: 15px 10px;
+    line-height: 14px;
+    font-size: 15px;
+    font-weight: 400;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.wr-issues .row:first-child .issue:nth-child(even) span {
+    background: #0b1b56;
+    background: url(../img/silkscreen.svg), #0b1b56;
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    color: #fff;
+}
+.wr-issues .row:first-child .issue:nth-child(odd) span {
+    background: #ff0000;
+    background: url(../img/silkscreen.svg), #ff0000;
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    color: #fff;
+}
+
+.wr-issues .row:last-child .issue:nth-child(odd) span {
+    background: #0b1b56;
+    background: url(../img/silkscreen.svg), #0b1b56;
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    color: #fff;
+}
+.wr-issues .row:last-child .issue:nth-child(even) span{
+    background: #ff0000;
+    background: url(../img/silkscreen.svg), #ff0000;
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    color: #fff;
+}
+
+
+/*=====================================
+  FOOTER STYLES 
+    ===================================*/
+
+.myfooter {
+    background-color: #4bb777;
+    padding: 5px 40px 5px 40px;
+    color: #fff;
+    font-size: 14px;
+    text-align: right;
+}
+
+@media screen and (min-width: 992px) {
+    .fight img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #logo.shift {
+        width: 160px;
+    }
+    #menu.shrink {
+        height: 50px;
+    }
+    #menu.shrink h1 {
+        left: 175px;
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 46px;
+    }
+    .header-sec,
+    .header-sec .overlay {
+        min-height: 100px;
+    }
+    .header-sec h1 {
+        font-size: 30px;
+        padding-top: 0px;
+    }
+    .header-sec h1 .subscript {
+        font-size: 20px;
+    }
+    .bat, .sup {
+        padding: 10px;
+    }
+    .bat {
+        background-color: #0b1b56;
+    }
+    .sup {
+        background-color: #ff0000;
+    }
+    .bat, .sup,
+    .bat .overlay, .sup .overlay{
+        min-height: 350px;
+    }
+    #showdown h1 {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    .bat .showdown-list,
+    .sup .showdown-list {
+        font-size: 13px;
+    }
+    .bat .showdown-list .weakness,
+    .sup .showdown-list .weakness {
+        color: #fff;
+        font-style: italic;
+    }
+    .wr-issues .issue {
+        width: 100%;
+    }
+    .testi-sec {
+        background-position: center center;
+    }
+    .testi-sec,
+    .testi-sec .overlay {
+        min-height: 200px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #menu.shrink h1 {
+        left: 175px;
+        font-size: 18px;
+        top: 7px;
+    }
+}

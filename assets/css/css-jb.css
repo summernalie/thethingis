@@ -1,0 +1,392 @@
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+
+@font-face {
+    font-family: 'Comic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/comicneue/ComicNeue-Angular-Regular.ttf');
+    /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Comic';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/comicneue/ComicNeue-Angular-Bold.ttf');
+    /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Comic';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/comicneue/ComicNeue-Angular-Light.ttf');
+    /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Comic';
+    font-style: italic;
+    font-weight: normal;
+    src: url('../fonts/comicneue/ComicNeue-Angular-Regular-Oblique.ttf');
+    /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Comic';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/comicneue/ComicNeue-Angular-Bold-Oblique.ttf');
+    /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Comic';
+    font-style: italic;
+    font-weight: 200;
+    src: url('../fonts/comicneue/ComicNeue-Angular-Light-Oblique.ttf');
+    /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Jungle Juice';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Jungle-Juice.TTF');
+    /* IE9 Compat Modes */
+}
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'Segoe UI', 'Open Sans', sans-serif;
+    /*line-height: 30px;*/
+    /* background-image:  url("../img/jungle-book.jpg");
+    background-size: contain;*/
+}
+h1 {
+    font-family: 'Jungle Juice', 'Open Sans', sans-serif;
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    /*text-shadow: 2px 2px #ff0000;*/
+}
+h2 {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    color: #000;
+    font-size: 60px;
+    font-family: 'Jungle Juice', 'Open Sans', sans-serif;
+}
+h3 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+section {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.just-pad {
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+p {
+    font-size: 16px;
+    letter-spacing: -0.25px;
+    padding: 10px 0px;
+}
+#menu {
+    background: #000;
+}
+#menu h1 {
+    font-size: 36px;
+    font-weight: 100;
+}
+.portion {
+    position: relative;
+    margin-top: 90px;
+    background: url("../img/jb/jb-left.jpg");
+    background-position: left center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.portion > .inner {
+    
+    
+    background: url("../img/jb/jb-right.png");
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#intro {
+    /* position: relative;*/
+    /*min-height: 100vh;*/
+    padding-bottom: 100px;
+}
+#intro h1 {
+    padding: 80px 0 100px 0;
+    font-size: 90px;
+    text-shadow: 1px 1px 3px #FBF2A3;
+}
+#intro p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #0D6B02;
+    margin-bottom: 100px;
+}
+#story {
+    padding: 0;
+    background: url("../img/jb/jb-bg.jpg");
+    background-attachment: fixed;
+    color: #fff;
+}
+#story .overlay {
+    padding: 70px 0;
+    background: rgba(13, 107, 2, 0.8);
+}
+#story h2 {
+    color: #DCC209;
+}
+#story p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+#effects {
+    padding: 0;
+    color: #fff;
+}
+#effects h2 {
+    padding-top: 20px;
+    color: #DCC209;
+}
+#effects .inner {
+    background: url("../img/jb/bg.jpg");
+}
+#effects .inner .overlay {
+    padding: 50px 0;
+    color: #000;
+    background: rgba(220, 194, 9, 0.8);
+    font-size: 18px;
+    line-height: 26px;
+}
+
+#animals {
+    background: url(../img/jb/river.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000;
+    
+}
+#animals .overlay {
+    background: rgba(251, 242, 163, 0.8);
+}
+#animals .col-sm-6 {
+    padding: 0;
+}
+#animals p {
+    text-align: center;
+    margin: 50px 20px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.animalrow > div {
+    padding: 0;
+}
+
+#acting {
+    padding: 0;
+    background: rgba(13, 107, 2, 0.8);
+    background-size: cover;
+}
+#acting h2 {
+    color: #fff;
+}
+.mowgli {
+    
+    padding: 0 10px 0 0;
+    overflow: hidden;
+}
+.mowgli h2 {
+    margin-top: 0;
+    padding-top: 20px;
+}
+.mowgli img {
+    float: left;
+    max-width: 50%;
+    margin-right: 30px;
+}
+.mowgli p {
+    padding: 20px;
+}
+.cast img {
+    
+}
+.cast p {
+    padding-top: 50px;
+    padding: 20px;
+}
+#tension {
+    padding: 0;
+    background: url(../img/jb/jb-bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000;
+}
+#tension .overlay {
+    background:rgba(220, 194, 9, 0.85);
+    padding-bottom: 20px;
+}
+#tension h2 {
+    text-align: center;
+}
+#tension p {
+    font-weight: 500;
+    font-size: 15px;
+    margin: 40px 0;
+}
+
+#final {
+    min-height: 500px;
+   padding: 0;
+    background: url(../img/jb/waterfall.jpg) bottom no-repeat;
+    background-size: cover;  
+    font-weight: 500;
+    color: #000;
+}
+#final h2 {
+    margin: 0;
+    padding: 30px 0 0 0;
+}
+#final p {
+    font-size: 18px;
+}
+
+.header-sec {
+    margin-top: 0;
+    min-height: 500px;
+    padding-bottom: 60px;
+    padding: 0;
+    /*-webkit-background-size: cover;
+    background-size: cover;*/
+    color: #fff;
+    background-attachment: fixed;
+}
+.header-sec .overlay {
+    min-height: 500px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.header-sec h1 {
+    color: #fff;
+    padding-top: 250px;
+}
+.italic {
+    font-style: italic;
+}
+.aside {
+    background-attachment: fixed;
+    background-size: 100%;
+    color: #000;
+    position: relative;
+}
+.aside .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.70);
+}
+.aside .italic {
+    font-weight: 900;
+    color: #cc0033;
+    margin-right: 10px;
+}
+
+/*=====================================
+  FOOTER STYLES 
+    ===================================*/
+
+.myfooter {
+    background-color: #000;
+    padding: 5px 40px 5px 40px;
+    color: #fff;
+    font-size: 14px;
+    text-align: right;
+}
+@media screen and (max-width: 992px) {
+    #intro h1 {
+        font-size: 70px;
+        padding-top: 0px;
+    }
+    p {
+        font-size: 14px;
+    }
+    #intro p {
+        font-size: 16px;
+        padding: 20px;
+        font-weight: 500;
+        background: rgba(251, 242, 163, 0.7);
+    }
+}
+@media screen and (max-width: 767px) {
+    #logo.shift {
+        width: 160px;
+    }
+    #menu.shrink {
+        height: 50px;
+    }
+    #menu.shrink h1 {
+        left: 175px;
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 46px;
+    }
+    #intro h1 {
+        font-size: 40px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+    .animalrow img {
+        width: 100%;
+        
+    }
+    #acting img {
+        width: 100%;
+         float: none;
+    }
+    .mowgli img {
+        max-width: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .header-sec,
+    .header-sec .overlay {
+        min-height: 100px;
+    }
+    
+    .header-sec h1 .subscript {
+        font-size: 20px;
+    }
+}
