@@ -1,0 +1,331 @@
+@font-face {
+    font-family: 'Bilbo';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/bilbohand/bilbobold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Aniron';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/aniron/anirm.ttf');
+    /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Ringbearer';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/ringbearer/ringbearer.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/josefinsans/JosefinSans-Thin.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: italic;
+    font-weight: 100;
+    src: url('../fonts/josefinsans/JosefinSans-ThinItalic.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/josefinsans/JosefinSans-Light.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../josefinsans/fonts/JosefinSans-LightItalic.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/josefinsans/JosefinSans-Regular.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: italic;
+    font-weight: normal;
+    src: url('../fonts/josefinsans/JosefinSans-Italic.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/josefinsans/JosefinSans-SemiBold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/josefinsans/JosefinSans-SemiBoldItalic.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/josefinsans/JosefinSans-Bold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: italic;
+    font-weight: 800;
+    src: url('../assets/fonts/josefinsans/JosefinSans-BoldItalic.ttf');
+    /* IE9 Compat Modes */
+}
+html {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e6e44d+0,ffffff+100 */
+    background: url('../img/lotr/old_map.png') repeat;
+    
+}
+body {
+    font-family: 'Josefin', 'Open Sans', sans-serif;
+    background-color: transparent;
+    background-image: url('../img/lotr/tree.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #503d00;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.25px;
+}
+.bold {
+    font-weight: 700;
+}
+.emph {
+    font-style: italic;
+    
+}
+
+h1 {
+    font-family: 'Aniron', 'Open Sans', sans-serif;
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #503d00;
+    line-height: 50px;
+}
+
+section {
+    padding: 30px 0;
+    position: relative;
+    color: #0a0d00;
+}
+section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.spacer {
+    max-height: 400px;
+    overflow: hidden;
+}
+#intro {
+    background: rgba(230, 228, 77, 0.8);
+}
+#intro h1 {
+    
+}
+#intro h1 span {
+    font-size: 18px;
+    display: inline-block;
+    line-height: 29px;
+    margin-bottom: 20px;
+}
+#menu.shrink h1 {
+    font-size: 18px;
+    line-height: 24px;
+}
+#sec1 {
+    background: rgba(195, 212, 0, 0.8);
+}
+
+#sec2 {
+    color: #0a0d00;
+    background: #bcbc6c url(../img/lotr/aragorn.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#sec3 {
+    background: rgba(230, 228, 77, 0.8);
+}
+
+#sec4 {
+    background: rgba(164, 206, 191, 0.8) url(../img/lotr/frodo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+#sec5 {
+    background: rgba(230, 228, 77, 0.8) url(../img/lotr/sam.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 400px;
+    padding-top: 400px;
+}
+#sec6 {
+    background: rgba(255, 255, 255, 0.8) url(../img/lotr/others.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 400px;
+    padding-bottom: 350px;
+}
+
+#sec7 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,bfe2d1+100 */
+background: rgba(191, 226, 209, 0.8); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255, 255, 255, 0.8) 0%, rgba(191, 226, 209, 0.8) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255, 255, 255, 0.8) 0%,rgba(191, 226, 209, 0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255, 255, 255, 0.8) 0%,rgba(191, 226, 209, 0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(255, 255, 255, 0.8)', endColorstr='rgba(191, 226, 209, 0.8)',GradientType=0 ); /* IE6-9 */
+
+}
+
+.quote {
+    background: rgba(255, 255, 255, 0.6);
+}
+.quote h3,
+.quote h3 p{
+    font-size: 26px;
+    font-family: 'Aniron', 'Open Sans', sans-serif;
+    /*font-family: 'Ringbearer', 'Open Sans', sans-serif;*/
+    color: #627401;
+    font-weight: 300;
+    line-height: 36px;
+    position: relative;
+}
+.quote h3 span {
+    font-family:  'Ringbearer', 'Times New Roman', serif;
+    display: inline-block;
+    position: absolute;
+    font-size: 200px;
+    line-height: 30px;
+    top: 0;
+    color: rgba(80, 61, 0, 0.8);
+}
+.quote h3 span:first-child {
+    left: -50px;
+}
+.quote h3 span:last-child {
+    right: -50px;
+}
+.quote h3 i {
+    font-size: 20px;
+    color: rgba(80, 61, 0, 0.8);
+}
+#quote4 {
+    min-height: 400px;
+    background: rgba(80, 97, 139, 0.8) url(../img/lotr/carry.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right 20%;
+}
+#quote4 h3 {
+    color: #fff;
+}
+.myfooter {
+    padding: 10px 0;
+}
+#menu,
+.myfooter {
+    background: #382701;
+}
+
+
+@media screen and (max-width: 991px) {
+    #menu.shrink h1 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .quote h3,
+    .quote h3 p {
+        font-size: 18px;
+    }
+    .quote h3 i {
+        font-size: 14px;
+    }
+    .quote h3 span:first-child {
+        left: -30px;
+    }
+    .quote h3 span:last-child {
+        right: -30px;
+    }
+    
+    #sec2 .overlay {
+        background: rgba(188, 188, 108, 0.7);
+    }
+    #sec4 .overlay {
+        background: rgba(164, 206, 191, 0.7);
+    }
+    #sec5 {
+        background-size: 200%;
+        padding-top: 40px;
+    }
+    #sec5 .overlay {
+        background: rgba(230, 228, 77, 0.7);
+    }
+    #quote4 h3 {
+        margin-top: 100px;
+    }
+    #sec6 {
+        padding-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #menu.shrink h1 {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    #intro h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #intro h1 span {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    #sec6 {
+        padding-bottom: 100px;
+    }
+}

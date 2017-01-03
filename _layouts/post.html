@@ -1,6 +1,6 @@
 ---
 layout: default
-disqus: false
+disqus: True
 class: 'post-template'
 ---
 <!-- < default -->
@@ -20,14 +20,7 @@ class: 'post-template'
     </nav>
 </header>-->
 
-    <div class="navbar navbar-inverse navbar-fixed-top move-me" id="menu">
-         
-        <a id="logo" href="."><img src="assets/img/logo.png"/></a>
-        
-        <h1 class="">{{page.title2}}</h1>
-        
-    </div>
-        <section class="header-sec" id="home">
+    <section class="header-sec" id="home">
         <div class="overlay">
             <div class="container">
                 <div class="row text-center">
@@ -78,32 +71,10 @@ class: 'post-template'
 
         <footer class="post-footer">
 
-            <!-- Everything inside the #author tags pulls data from the author -->
-            <!-- #author-->
-
-            <!--{% if site.image %}
-            <figure class="author-image">
-                <a class="img" href="{{ site.baseurl }}author/{{ site.nickname }}" style="background-image: url({{ site.baseurl }}{{ site.image }})"><span class="hidden">{{ page.author }}'s Picture</span></a>
-            </figure>
-            {% endif %}
-
-            <section class="author">
-                <h4><a href="{{ site.baseurl }}author/{{ site.nickname }}">{{ site.author }}</a></h4>
-                
-                {% if site.bio %}
-                    <p> {{ site.bio }}</p>
-                {% else %}
-                    <p>Read <a href="{{ site.baseurl }}author/{{ site.nickname }}">more posts</a> by this author.</p>
-                {% endif %}
-                <div class="author-meta">
-                    {% if site.location %}<span class="author-location icon-location"> {{ site.location }}</span>{% endif %} 
-                    {% if site.url %}<span class="author-link icon-link"><a href="{{ site.url }}"> {{ site.short_url }}</a></span>{% endif %} 
-                </div>
-            </section>-->
-
-            <!-- /author  -->
-
-            <!--<section class="share">
+            
+            <div class="container">
+            
+            <section class="share">
                 <h4>Share this post</h4>
                 <a class="icon-twitter" href="http://twitter.com/share?text={{ page.title }}&amp;url={{ site.url }}{{ page.url | remove: '/' }}"
                     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
@@ -117,13 +88,14 @@ class: 'post-template'
                    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
                 </a>
-            </section>-->
+            </section>
+            
             
             <!-- Add Disqus Comments -->
             {% if page.disqus %}
                 {% include disqus.html %}
             {% endif %}
-            
+            </div>
         </footer>
 
     </article>
@@ -156,3 +128,4 @@ class: 'post-template'
 </aside>
 
 <!-- /post -->
+

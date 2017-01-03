@@ -95,6 +95,9 @@ h3 {
     font-weight: 900;
     text-transform: uppercase;
 }
+section.post-content {
+    padding-top: 0;
+}
 section {
     padding-top: 30px;
     padding-bottom: 40px;
@@ -115,9 +118,13 @@ p {
     font-size: 36px;
     font-weight: 100;
 }
+#home {
+    display: none;
+}
 .portion {
     position: relative;
-    margin-top: 90px;
+    margin-top: 0;
+    padding: 0;
     background: url("../img/jb/jb-left.jpg");
     background-position: left center;
     background-attachment: fixed;

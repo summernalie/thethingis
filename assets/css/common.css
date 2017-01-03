@@ -1,4 +1,7 @@
-
+body {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    line-height: 30px;
+}
 #logo {
     position: absolute;
     left: 50%;
@@ -6,10 +9,10 @@
     display: block;
     width: 300px;
     z-index: 99;
-    -webkit-transition: all 0.5s ease 1s;
-    -moz-transition: all 0.5s ease 1s;
-    -o-transition: all 0.5s ease 1s;
-    transition: all 0.5s ease 1s;
+    -webkit-transition: all 0.5s ease 0.5s;
+    -moz-transition: all 0.5s ease 0.5s;
+    -o-transition: all 0.5s ease 0.5s;
+    transition: all 0.5s ease 0.5s;
 }
 #logo img {
     max-width: 100%;
@@ -23,7 +26,57 @@
 /*=====================================
   NAVBAR STYLES 
     ===================================*/
+nav {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    -webkit-transition: all 0.5s ease 0.5s;
+    -moz-transition: all 0.5s ease 0.5s;
+    -o-transition: all 0.5s ease 0.5s;
+    transition: all 0.5s ease 0.5s;
+   margin-top: 100px;
+    text-align: center;
+}
+nav .navbar-nav {
+    float: none;
+    width: 500px;
+    margin: auto;
+}
+.navbar-inverse {
+    background: #ff0000;
+    border-color: transparent;
+}
 
+.navbar-nav > li > a {
+    color: #FFF;
+    font-weight: 200;
+    font-size: 16px;
+    padding: 10px 25px;
+}
+.navbar-nav > li > a:hover {
+    color: #ff0000;
+    background: none;
+    font-weight: 200;
+}
+.navbar-nav > li.nav-movies > a:hover {
+    color: #dd0000;
+}
+.navbar-nav > li.nav-tv > a:hover {
+    color: #b400ff;
+}
+.navbar-nav > li.nav-books > a:hover {
+    color: #0090ff;
+}
+.navbar-nav > li.nav-fiction > a:hover {
+    color: #02fceb;
+}
+.navbar-nav > li.nav-music > a:hover {
+    color: #96ff00;
+}
+.navbar-toggle {
+    background: #fff;
+}
+.navbar-toggle span {
+    background: #000;
+}
 .logo-custom {
     max-height: 30px
 }
@@ -33,7 +86,7 @@
 }
 
 #menu {
-    height: 90px;
+    height: 150px;
     background-color: rgba(0, 0, 0, 0.3);
     background: url(../img/silkscreen.svg), rgba(0, 0, 0, 0.3);
     background-position: top center;
@@ -43,10 +96,10 @@
     font-size: 12px;
     font-weight: 900;
     letter-spacing: 1px;
-    -webkit-transition: all 0.5s ease 1s;
-    -moz-transition: all 0.5s ease 1s;
-    -o-transition: all 0.5s ease 1s;
-    transition: all 0.5s ease 1s;
+    -webkit-transition: all 0.5s ease 0.5s;
+    -moz-transition: all 0.5s ease 0.5s;
+    -o-transition: all 0.5s ease 0.5s;
+    transition: all 0.5s ease 0.5s;
 }
 
 #menu.shrink {
@@ -64,26 +117,16 @@
     position: absolute;
     left: 220px;
     top: 15px;
-    -webkit-transition: all 0.5s ease 1s;
-    -moz-transition: all 0.5s ease 1s;
-    -o-transition: all 0.5s ease 1s;
-    transition: all 0.5s ease 1s;
+    -webkit-transition: all 0.5s ease 0.5s;
+    -moz-transition: all 0.5s ease 0.5s;
+    -o-transition: all 0.5s ease 0.5s;
+    transition: all 0.5s ease 0.5s;
 }
 
-#menu.shrink h1 {
-    opacity: 1;
-    
+#menu.shrink nav {
+   margin: 10px 0;
 }
 
-.navbar-inverse {
-    background: #ff0000;
-    border-color: transparent;
-}
-
-.navbar-inverse .navbar-nav > li > a,
-.navbar-inverse .navbar-nav > li > a:hover {
-    color: #FFF;
-}
 
 
 /*=====================================
@@ -91,6 +134,7 @@
     ===================================*/
 
 .myfooter {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
     background-color: #000;
     padding: 5px 40px 5px 40px;
     color: #fff;
@@ -115,7 +159,27 @@
 
 
 @media screen and (max-width: 767px) {
+    #menu {
+        height: 80px;
+        background: #000;
+        opacity: 1;
+    }
+    nav {
+        margin-top: 0;
+    }
+    .navbar-collapse {
+        padding: 0;
+        margin-top: 30px;
+        background: #000;
+    }
+    #logo {
+        margin-top: 10px;
+        width: 200px;
+        margin-left: -100px;
+    }
+    
     #logo.shift {
+         margin-top: 0;
         width: 160px;
     }
     #menu.shrink {
@@ -124,6 +188,13 @@
     #menu.shrink h1 {
         left: 175px;
         font-size: 20px;
+    }
+    #menu.shrink .navbar-toggle {
+        margin-top: 0;
+    }
+    #menu.shrink .navbar-collapse {
+        margin-top: 0;
+        margin-bottom: 0;
     }
     h1 {
         font-size: 46px;

@@ -1,0 +1,294 @@
+@font-face {
+    font-family: 'Lumos';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/lumoslatino/LumosLatino.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Parry Hotter';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/parryhotter/ParryHotter.ttf');
+    /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Harry';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/hp/harry.ttf');
+    /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Josefin';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/josefinsans/JosefinSans-Thin.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: italic;
+    font-weight: 100;
+    src: url('../fonts/josefinsans/JosefinSans-ThinItalic.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/josefinsans/JosefinSans-Light.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../fonts/josefinsans/JosefinSans-LightItalic.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/josefinsans/JosefinSans-Regular.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: italic;
+    font-weight: normal;
+    src: url('../fonts/josefinsans/JosefinSans-Italic.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/josefinsans/JosefinSans-SemiBold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/josefinsans/JosefinSans-SemiBoldItalic.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/josefinsans/JosefinSans-Bold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Josefin';
+    font-style: italic;
+    font-weight: 800;
+    src: url('../fonts/josefinsans/JosefinSans-BoldItalic.ttf');
+    /* IE9 Compat Modes */
+}
+html {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e6e44d+0,ffffff+100 */
+   
+    
+}
+body {
+    font-family: 'Josefin', 'Open Sans', sans-serif;
+    background-color: transparent;
+    
+    color: #503d00;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.25px;
+}
+.bold {
+    font-weight: 700;
+}
+.emph {
+    font-style: italic;
+    
+}
+
+h1 {
+    font-family: 'Harry', 'Parry Hotter', 'Open Sans', sans-serif;
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #503d00;
+    line-height: 50px;
+}
+
+section {
+    padding: 30px 0;
+    position: relative;
+    color: #0a0d00;
+}
+section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+section p {
+    padding: 20px;
+}
+.spacer {
+    max-height: 400px;
+    overflow: hidden;
+}
+#intro {
+    background: rgba(255, 255, 255, 0.8);
+}
+#intro h1 {
+    
+}
+#intro h1 span {
+    font-family: 'Lumos', 'Parry Hotter', 'Open Sans', sans-serif;
+    font-size: 68px;
+    display: inline-block;
+    line-height: 72px;
+    margin-bottom: 20px;
+}
+#menu.shrink h1 {
+    font-size: 30px;
+    font-weight: normal;
+}
+#sec2 .container,
+#sec3 .container,
+#sec4 .container,
+#sec5 .container {
+    border: 1px solid rgba( 240, 135, 49, 0.9 );
+}
+#sec1 {
+    background: rgba( 240, 135, 49, 0.9 );
+}
+
+#sec2 {
+    color: #000;
+   
+    background-image: url(../img/potter/owl.jpg);
+    background-attachment: fixed;
+}
+#sec2 .container {
+     background: rgba( 255, 255, 255, 0.9 );
+}
+
+#sec3 {
+     background-image: url(../img/potter/owl.jpg);
+    background-attachment: fixed;
+    
+}
+#sec3 .container {
+    background-color: rgba( 255, 255, 255, 0.9 )
+}
+
+#sec4 {
+     background-image: url(../img/potter/glasses.jpg);
+    background-attachment: fixed;
+    color: #000;
+    
+}
+#sec4 .container {
+    background-color: rgba( 255, 255, 255, 0.9 )
+}
+#sec5 h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+     font-family: 'Lumos', 'Open Sans', sans-serif;
+}
+#sec5 {
+    background-image: url(../img/potter/snitch.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+   
+    
+}
+#sec5 .container {
+    background: rgba(255, 255, 255, 0.9);
+}
+#sec5 ul {
+    padding: 0;
+    margin: 0;
+}
+#sec5 ul li {
+    list-style: none;
+    text-align: left;
+    /*margin-bottom: 25px;*/
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px 20px;
+    border-bottom: 1px solid rgba( 240, 135, 49, 0.9 );
+}
+#sec5 ul li:last-child {
+    border: none;
+}
+#sec5 ul li h4 {
+    font-family: 'Lumos', 'Segoe UI', sans-serif;
+    font-size: 30px;
+    color: #c4460c;
+}
+#sec6 {
+    background: rgba( 240, 135, 49, 0.9 );
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+   
+}
+
+#sec7 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,bfe2d1+100 */
+
+
+}
+
+.myfooter {
+    padding: 10px 0;
+}
+#menu,
+.myfooter {
+    background: #382701;
+}
+
+
+@media screen and (max-width: 991px) {
+    #menu.shrink h1 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    #menu.shrink h1 {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    #intro h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    #intro h1 span {
+        font-size: 46px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+    #sec6 {
+        padding-bottom: 100px;
+    }
+}

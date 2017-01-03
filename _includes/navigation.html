@@ -1,16 +1,27 @@
-<div class="nav">
-    <h3 class="nav-title">Menu</h3>
-    <a href="#" class="nav-close">
-        <span class="hidden">Close</span>
+<div class="navbar-fixed-top move-me" id="menu">
+    <a id="logo" href="{{ site.baseurl }}">
+        <img src="{{ site.url }}assets/img/logo.png" alt="The Thing Is" />
     </a>
-    <ul>
-        <li class="nav-home {% if page.current == 'home' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}">Home</a></li>
-        <li class="nav-about {% if page.current == 'about' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}about">About</a></li>
-        <li class="nav-fables {% if page.url contains 'fables' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/fables">Fables</a></li>
-        <li class="nav-speeches {% if page.url contains 'speeches' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/speeches">Speeches</a></li>
-        <li class="nav-fiction {% if page.url contains 'fiction' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/fiction">Fiction</a></li>
-        <li class="nav-author {% if page.current == 'author' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}author/casper">Author</a></li>
-    </ul>
-    <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+    
+
+<nav class="">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="nav-movies {% if page.url contains 'movies' %} active {% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/movies">Movies</a></li>
+                    <li class="nav-tv {% if page.url contains 'tv' %} active {% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/tv">TV</a></li>
+                    <li class="nav-books {% if page.url contains 'books' %} active {% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/books">Books</a></li>
+                    <li class="nav-fiction {% if page.current == 'fiction' %} active {% endif %}" role="presentation"><a href="{{ site.baseurl }}author/fiction">Fiction</a></li>
+                    <li class="nav-music {% if page.url contains 'music' %} active {% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/music">Music</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </div>
-<span class="nav-cover"></span>

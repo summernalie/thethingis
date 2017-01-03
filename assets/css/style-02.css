@@ -146,66 +146,6 @@ section {
 p {
     padding: 10px 0px;
 }
-/*=====================================
-  NAVBAR STYLES 
-    ===================================*/
-
-.logo-custom {
-    max-height: 30px
-}
-
-#menu {
-    height: 90px;
-    background-color: rgba(0, 0, 0, 0.3);
-    background: url(../img/silkscreen.svg), rgba(0, 0, 0, 0.3);
-    background-position: top center;
-    background-size: 4px 4px, 100%;
-    background-repeat: repeat, no-repeat;
-    color: #fff;
-    font-size: 12px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    -webkit-transition: all 0.5s ease 1s;
-    -moz-transition: all 0.5s ease 1s;
-    -o-transition: all 0.5s ease 1s;
-    transition: all 0.5s ease 1s;
-}
-
-#menu.shrink {
-    height: 60px;
-    background: #000;
-}
-
-#menu h1 {
-    opacity: 0;
-      
-    color: #fff;
-    text-shadow: none;
-    font-size: 26px;
-    margin: 0;
-    position: absolute;
-    left: 220px;
-    top: 15px;
-    -webkit-transition: all 0.5s ease 1s;
-    -moz-transition: all 0.5s ease 1s;
-    -o-transition: all 0.5s ease 1s;
-    transition: all 0.5s ease 1s;
-}
-
-#menu.shrink h1 {
-    opacity: 1;
-    
-}
-
-.navbar-inverse {
-    background: #ff0000;
-    border-color: transparent;
-}
-
-.navbar-inverse .navbar-nav > li > a,
-.navbar-inverse .navbar-nav > li > a:hover {
-    color: #FFF;
-}
 
 .home-mail {
     font-size: 12px;

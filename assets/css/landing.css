@@ -79,26 +79,8 @@ body {
     line-height: 30px;
 }
 
-#logo {
-    position: absolute;
-    left: 50%;
-    margin-left: -150px;
-    display: block;
-    width: 300px;
-    -webkit-transition: all 0.5s ease 1s;
-    -moz-transition: all 0.5s ease 1s;
-    -o-transition: all 0.5s ease 1s;
-    transition: all 0.5s ease 1s;
-}
-#logo img {
-    max-width: 100%;
-}
-#logo.shift {
-    left: 10px;
-    margin-left: 0;
-    width: 200px;
-}
-h2 {
+
+.landing h2 {
     padding-top: 100px;
     font-weight: 700;
     font-size: 40px;
@@ -147,66 +129,6 @@ section {
 p {
     padding: 10px 0px;
 }
-/*=====================================
-  NAVBAR STYLES 
-    ===================================*/
-
-.logo-custom {
-    max-height: 30px
-}
-
-#menu {
-    height: 90px;
-    background-color: rgba(0, 0, 0, 0.3);
-    background: url(../img/silkscreen.svg), rgba(0, 0, 0, 0.3);
-    background-position: top center;
-    background-size: 4px 4px, 100%;
-    background-repeat: repeat, no-repeat;
-    color: #fff;
-    font-size: 12px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    -webkit-transition: all 0.5s ease 1s;
-    -moz-transition: all 0.5s ease 1s;
-    -o-transition: all 0.5s ease 1s;
-    transition: all 0.5s ease 1s;
-}
-
-#menu.shrink {
-    height: 60px;
-    background: #000;
-}
-
-#menu h1 {
-    opacity: 0;
-      
-    color: #fff;
-    text-shadow: none;
-    font-size: 26px;
-    margin: 0;
-    position: absolute;
-    left: 220px;
-    top: 15px;
-    -webkit-transition: all 0.5s ease 1s;
-    -moz-transition: all 0.5s ease 1s;
-    -o-transition: all 0.5s ease 1s;
-    transition: all 0.5s ease 1s;
-}
-
-#menu.shrink h1 {
-    opacity: 1;
-    
-}
-
-.navbar-inverse {
-    background: #ff0000;
-    border-color: transparent;
-}
-
-.navbar-inverse .navbar-nav > li > a,
-.navbar-inverse .navbar-nav > li > a:hover {
-    color: #FFF;
-}
 
 
 /*=====================================
@@ -216,7 +138,7 @@ body {
     background: #000;
 }
 .landing {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .portion1 {
     display: block;
@@ -326,8 +248,8 @@ body {
     margin-top: 0;
     padding-top: 150px;
     /*background: url(../img/bvs-head.jpg) no-repeat top center;*/
-     background: url(../../lotr/assets/images/rivendell.jpg) no-repeat center center;
-    background: url(../img/silkscreen.svg), url(../../lotr/assets/images/rivendell.jpg);
+     background: url(../img/lotr/rivendell.jpg) no-repeat center center;
+    background: url(../img/silkscreen.svg), url(../img/lotr/rivendell.jpg);
     background-position: center center;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;
@@ -401,7 +323,21 @@ body {
     text-shadow: 3px 3px 1px #000;
 }
 
-
+.portion7 {
+    display: block;
+    margin-top: 0;
+    padding-top: 150px;
+     background: url(../img/tv/strangerthingsart.jpg) no-repeat top center;
+    background: url(../img/silkscreen.svg), url(../img/tv/strangerthingsart.jpg);
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    /*-webkit-background-size: cover;
+    background-size: cover;*/
+    color: #fff;
+    height: 500px !important;
+    text-decoration: none;
+}
 .portion h3 {
     
 }
@@ -418,27 +354,56 @@ body {
     text-align: right;
 }
 
+
+/*=====================================
+  TAG PAGE 
+    ===================================*/
+
+.tag-head {
+    margin-top: 150px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+}
+.tag-head .page-title {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 44px;
+}
+.tag-head .page-description {
+    padding: 0;
+    text-transform: none;
+    color: #fff;
+    font-weight: 100;
+}
+.tags article {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+.tags article a {
+    color: #fff;
+}
+.tags article h2 {
+    font-size: 26px;
+}
+.tags article .post-subtitle {
+    color: #fff;
+}
+
 @media screen and (min-width: 992px) {
     
 }
 
 @media screen and (max-width: 767px) {
-    #logo.shift {
-        width: 160px;
-    }
-    #menu.shrink {
-        height: 50px;
-    }
-    #menu.shrink h1 {
-        left: 175px;
-        font-size: 20px;
-    }
+   
     .landing {
         padding: 0;
-        margin-top: 60px;
+        margin-top: 100px;
     }
     .portion {
-        height: auto;
+        height: auto !important;
         padding: 20px 0;
     }
     .portion h2 {
