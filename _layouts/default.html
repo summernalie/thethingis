@@ -41,10 +41,10 @@
 
 </head>
     
-     {% include navigation.html %}
+    
 <body class="{% if paginator.page > 1 %}paged archive-template{% elsif page.class %}{{ page.class }}{% else %}home-template{% endif %} nav-closed">
 
-   <!-- {% include navigation.html %}-->
+   {% include navigation.html %}
     
         <!-- [[! Everything else gets inserted here ]] -->
         {{ content }}

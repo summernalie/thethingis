@@ -1,1 +1,89 @@
-{{ content }}
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- [[! Document Settings ]] -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- [[! Page Meta ]] -->
+    <title>{% if page.title %}{{ page.title }}{% elsif site.name %}{{ site.name }}{% endif %}</title>
+    <!--<meta name="description" content="{{ site.name }} - {{ site.description }}" />-->
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta name="description" content="{{ page.subtitle }}" />
+    <meta name="author" content="Samanalie Dias Jayasinha" />
+    <meta name="keywords" content="{{ page.keywords }}" />
+    
+    <meta property="og:url"           content="{{ page.sharelink }}" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="{{ page.title }}" />
+	<meta property="og:description"   content="{{ page.subtitle }}" />
+	<meta property="og:image"         content="{{ page.ogimage }}" />
+   
+    <link rel="shortcut icon" href="{{ site.url }}assets/img/favicon.png" >
+    <link href="{{ site.url }}assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    
+   
+    <!-- [[! Styles'n'Scripts ]] -->
+    
+    
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}assets/css/common.css" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="{{page.css}}" rel="stylesheet" />
+    
+    <!-- [[! Ghost outputs important style and meta data with this tag ]] -->
+    {% include head.html %}
+    
+
+</head>
+    
+    
+<body class="{% if paginator.page > 1 %}paged archive-template{% elsif page.class %}{{ page.class }}{% else %}home-template{% endif %} nav-closed">
+
+    {% include navigation.html %}
+    
+        <!-- [[! Everything else gets inserted here ]] -->
+        {{ content }}
+
+    <div class="myfooter">
+        <div class="container">
+       
+        <span>The Thing Is | by: Samanlie</span>
+            </div>
+    </div>
+
+    <!--FOOTER SECTION END-->
+    <!--  Jquery Core Script -->
+    <script src="{{ site.baseurl }}assets/js/jquery-1.10.2.js"></script>
+    <!--  Core Bootstrap Script -->
+    <script src="{{ site.baseurl }}assets/js/bootstrap.js"></script>
+    <!--  Scrolling Reveal Script -->
+    <script src="{{ site.baseurl }}assets/js/scrollReveal.js"></script>
+    <!--  Scroll Scripts -->
+    <script src="{{ site.baseurl }}assets/js/jquery.easing.min.js"></script>
+    <!--  Custom Scripts -->
+    <script src="{{ site.baseurl }}assets/js/custom.js"></script>
+    
+    <script src="{{ page.js }}"></script>
+
+    <!--  Facebook Share Script -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
+    <!--  Twitter Share Script -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    
+    <!-- Add Google Analytics  -->
+    {% include analytics.html %}   
+</body>
+</html>
