@@ -51,10 +51,13 @@ nav .navbar-nav {
     font-size: 16px;
     padding: 10px 25px;
 }
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:active,
+.navbar-nav > li > a:visited,
 .navbar-nav > li > a:hover {
-    color: #ff0000;
-    background: none;
+    background: none !important;
     font-weight: 200;
+    text-decoration: none;
 }
 .navbar-nav > li.nav-movies > a:hover {
     color: #dd0000;
