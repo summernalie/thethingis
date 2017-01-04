@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>summernalie.github.io/thethingis/</title>
+   
+   <link>http://www.samanalie.com/thethingis/</link>
+   <description>Thoughts on Movies, Books and TV</description>
+   <language>en-uk</language>
+   <managingEditor> Samanalie Dias Jayasinha</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>The thing is... Warcraft is the Best Video Game Movie Thus Far</title>
+	  <link>/thethingis//warcraft-movie-review</link>
+	  <author>Samanalie Dias Jayasinha</author>
+	  <pubDate>2016-08-12T00:00:00+05:30</pubDate>
+	  <guid>/thethingis//warcraft-movie-review</guid>
+	  <description><![CDATA[
+	             <button id="switch">Switch Theme</button>
+
+    <section id="splash">
+        <a class="splash-half orc" id="orc">
+            <img src="assets/img/warcraft/splash-orc.jpg" alt="Orcs" />
+        </a>
+        <a class="splash-half human" id="human">
+            <img src="assets/img/warcraft/splash-human.jpg" alt="Humans"/>
+        </a>
+        <span>Choose Your Side</span>
+    </section>
+    <div id="page-content">
+        <section class="" id="intro">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-sm-12">
+                        <h1 data-scroll-reveal="enter from the bottom after 0.2s">
+                        <span><img src="assets/img/warcraft/title.png" class="img-responsive" alt="Warcraft"/></span> is the Best Video Game Movie Thus Far
+                    </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <img src="assets/img/warcraft/warcraft2.jpg" class="img-responsive" alt="Hypogriff in Flight" />
+
+        <section id="sec1">
+            <div class="container" data-scroll-reveal="enter from the bottom after 0.2s">
+                <p>
+                    Movies based on Video Games have established a well-proven stereotype; shallow, campy, over-the-top and almost always, disappointing. They've ranged from low-budget cheesiness like Mortal Kombat, to big-budget star-driven wanna-be epics like Prince of Persia. </p>
+                <p>
+                    Warcraft had every chance to follow in those exact same footsteps, and when initially presented with its world, it may seem like more of the same shallow, effects-driven fan-service that we've seen before. But after seeing the movie, I'm extremely happy to conclude that this was without a doubt, the best Video Game Movie that I have seen thus far. </p>
+            </div>
+        </section>
+
+
+        <section id="sec2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center" data-scroll-reveal="enter from the bottom after 0.2s">
+                        <p>
+                            As a precursor, I admit that I haven't played the World of Warcraft game, that the movie is based off of. I have however played Warcraft 3, the real-time strategy incarnation of the game. The characters in this movie were all new to me, so I didn't have much fore-knowledge going into the movie.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sec3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="subheading text-center">A different perspective</h2>
+
+                        <img src="assets/img/warcraft/warcraft1.jpg" class="img-responsive pull-left" alt="Orcs and Humans meet" />
+
+
+                        <p data-scroll-reveal="enter from the bottom after 0.2s">
+                            Warcraft tells the story of a first encounter between two very different civilizations; the Orcs and Humans. Each race has its own dynamics and culture, which are very much at odds with each other, which in turn sparks a war. The Orcs are the instigators, while the Humans are merely reactionary.</p>
+                        <p data-scroll-reveal="enter from the bottom after 0.2s">
+                            In these instances, we're mostly used to seeing stories told from the Human perspective. If there's an Alien Invasion, it's from the Human perspective. If there's a battle against some supernatural force, it's from the Human perspective. Even prior fantasy stories, such as Lord of the Rings are mostly based around the perspective of human or human-like races. In fact, we've gotten pretty used to seeing Orcs as mindless beasts who are only interested in death and destruction. </p>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+        <section id="sec4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6" data-scroll-reveal="enter from the bottom after 0.2s">
+                        <p>
+                            Warcraft breaks this trend, by making the Orcs the most compelling characters onscreen. They have internal conflicts, wavering loyalties, intricate tribal traditions and hierarchies, and a deep sense of honour. They do reign a fair amount of chaos on the Human world, leaving destruction in their wake, but no one could accuse these creatures of being unthinking beasts. Even the introduction to our primary Orc protagonist, war-chieftain Durotan, is by his pregnant wife's side, as they playfully discuss their future child. This paints a very different picture from the Orcs that we've grown accustomed to seeing, and it is truly refreshing.</p>
+                    </div>
+                    <div class="col-sm-6" data-scroll-reveal="enter from the bottom after 0.4s">
+                        <img src="assets/img/warcraft/orc2.png" class="img-responsive" alt="Durotan"/>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="sec5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-4" data-scroll-reveal="enter from the bottom after 0.2s">
+                        <img src="assets/img/warcraft/human1.jpg" class="img-responsive" alt="Lothar"/>
+                    </div>
+                    <div class="col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
+                        <p>
+                            The majority of the character development throughout the movie remains with the Orcs. There are moments where we delve into the human characters and get a glimpse of their own histories and motivations, but this is minimal and can sometimes even seem a little flat in comparison.</p>
+                        <p>This movie is really about the story of Durotan and his people's journey to find a home. I wonder if the majority of the criticism that has been levelled at this movie is due to the fact that the usual "heroes" are less compelling than the brutish creatures. This is a fresh take on Fantasy, and the Video Game movie genre as a whole, so I found myself pleasantly surprised.</p>
+
+                    </div>
+                    <div class="col-sm-4" data-scroll-reveal="enter from the bottom after 0.3s">
+                        <img src="assets/img/warcraft/durotan.jpg" class="img-responsive" alt="Durotan"/>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <div class="battle text-center">
+            <img src="assets/img/warcraft/battle.gif" alt="Warcraft Battle Scene"/>
+        </div>
+        <section id="sec6" class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12" data-scroll-reveal="enter from the bottom after 0.2s">
+                        <h2 class="subheading">Action, Character &amp; Effects</h2>
+                        <p>
+                            It would do this film a great disservice if I didn't mention the epic, yes absolutely EPIC battle sequences it depicts. Director Duncan Jones expertly captures the action up-close without it ever feeling muddled or confusing. You feel the weight of every hammer's fall, and the sharpness of each sword. The action scenes were exceedingly entertaining, and sometimes I found myself even cringing whenever a particularly heavy blow would fall. It felt like being in the middle of the fight, and even if you see this movie just for the action, I believe it would be time well-spent.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="note">
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="assets/img/warcraft/mix2.jpg" class="img-responsive" alt="Garona" />
+                
+                    <p>A note on Paula Patton's character, Garona, a half-breed Orc character; throughout the marketing campaign for the movie, she was shown in Orc garb, which was quite revealing, while she struck a provocative pose. Now I understand that the target audience of this movie is primarily made up of the younger male demographic, so Hollywood was just being Hollywood by marketing her character that way. It's an annoying aspect of the entertainment industry in general, but it is what it is.  As I watched the movie however, I was pleasantly surprised to see that as the story progressed, Garona became more "clothed" if I could use that term. Her character wasn't just eye-candy. She got full-bodied armour, she fought viciously in battle, she integrated into a new society, and she dealt with several emotional storylines. The final act of the movie even hinted that she may have an even more important role to play should the series continue in the future. All in all, it was exceedingly refreshing to see an intelligent portrayal of a female character in a video game movie.</p>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <section id="sec7">
+            <div data-scroll-reveal="enter from the right after 0.2s">
+                <img src="assets/img/warcraft/scenery1.jpg" class="img-responsive" alt="Scenery"/>
+            </div>
+            <div data-scroll-reveal="enter from the left after 0.2s">
+                <img src="assets/img/warcraft/scenery2.jpg" class="img-responsive" alt="Scenery" />
+            </div>
+        </section>
+        <section id="sec8">
+            <div class="container text-center" data-scroll-reveal="enter from the bottom after 0.2s">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>
+                            The sceneries and environment are expansive and breath-taking. It often feels surreal; like a painting brought to life. This feeling invades the whole look of the movie, where it may feel like you are in the middle of a Video Game rather than a traditional movie environment. Movies tend to always lean towards some sense realism, even when depicting Fantasy worlds. But Warcraft lets go of realism, and fully embraces the largeness of its universe. It could have easily been quite cheesy, but Duncan Jones handles it with such finesse that keeps it within a sense of wonderment, rather than incredulity.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sec9">
+            <img src="assets/img/warcraft/mix.jpg" class="img-responsive" alt="Warcraft Poster" />
+            <div class="container">
+
+                <p data-scroll-reveal="enter from the bottom after 0.2s">
+                    All in all, Warcraft deals with the traditional notions of Light vs Darkness, Good vs Evil, Tradition vs New-Thinking. It also explores deeper themes of loyalty, friendship, bravery and finding one's place in the world. The film boasts fantastic special effects, and the motion capture work on the Orcs is remarkable. It breaks norms, in making the "ugly beasts" the main focus of the film, and gives its characters intelligent and compelling story arcs. So despite what the majority of film critics seem to think, the thing is, Warcraft is the best Video Game Movie thus far, at least in my opinion.</p>
+            </div>
+
+        </section>
+
+    </div>
+
+
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>The thing is... The Jungle Book is an Adventure for the Eyes</title>
+	  <link>/thethingis//the-jungle-book-review</link>
+	  <author>Samanalie Dias Jayasinha</author>
+	  <pubDate>2016-08-12T00:00:00+05:30</pubDate>
+	  <guid>/thethingis//the-jungle-book-review</guid>
+	  <description><![CDATA[
+	         <div class="portion">
+        <div class="inner">
+            <section class="" id="intro">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                            <h1 data-scroll-reveal="enter from the top after 0.2s">
+                   The Jungle Book is an Adventure for the Eyes
+                        </h1>
+                        </div>
+                    </div>
+
+
+
+                    <div data-scroll-reveal="enter from the top after 0.2s" class="col-sm-offset-2 col-sm-8">
+                        <p>The one thing that you must know, when going in to see Disney's latest movie, The Jungle Book, is that 95% of what you see is entirely computer generated. The reason you should know this going in, is because 5 minutes into the film, you're going to completely forget that fact. And that is precisely what makes this a movie worth watching.</p>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <section id="story">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-offset-1 col-sm-10">
+
+                        <h2>Story</h2>
+                        <p>As far as story goes, there isn't a lot that's going on. The plot follows Mowgli as he makes the journey across the jungle on his quest to reach the "man village." Along the way he crosses a myriad of environments and encounters various wildlife, some friendly, and some not so much. The overall story arc is quite predictable, and delivers pretty much the plot you would expect. Good triumphs over evil of course, our main protagonist being the beacon of hope and the voice that rallies everyone together. </p>
+
+                        <p>Despite this however, the movie manages to keep its viewer engaged, not so much because we are ever in suspense as to whether Mowgli will eventually triumph, but because we are so invested in the environment and the captivating world that we see. We care about Mowgli, and more impressively, the movie makes us care about the CGI animals as well.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="effects" class="text-center">
+
+        <img src="assets/img/jb/effects.jpg" class="img-responsive" alt="effects"/>
+        <h2>Effects</h2>
+        <div class="inner" data-scroll-reveal="enter from the top after 0.2s">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <p>CGI Technology continues to make impressive leaps and bounds in creating worlds that do not exist and making them wholly believable to viewers. This is often easier when the world being created is something of fantasy and science-fiction, an alien world or a mythical creature. But when CGI can authentically mimic things that we are essentially familiar with, then it deserves special praise. This is the case in The Jungle Book. Although the idea of talking animals and a human child living alongside them and communicating with them is a branch of fantasy, the appearance, movements and behaviour of the animals are all based upon reality.
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="animals">
+            <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>As I said at the beginning of this review, quite early on in the movie viewing process, it becomes easy to forget that we aren't watching real living, breathing wildlife. It becomes easy to imagine that the child actor is really caressing the course fur of a real trained Wolf or Jaguar, or is riding on the belly of a real trained Bear. But he isn't. In reality, he's interacting with a static figure covered in blue felt on the end of a stick. </p>
+                    </div>
+                    <div class="col-sm-6" data-scroll-reveal="enter from the bottom after 0.2s">
+                        <img src="assets/img/jb/bear.jpg" class="img-responsive" alt="baloo"/>
+                    </div>
+
+                </div>
+                <div class="row animalrow">
+                    <div class="col-sm-4" data-scroll-reveal="enter from the bottom after 0.3s">
+                        <img src="assets/img/jb/raksha.jpg" class="img-responsive" alt="raksha"/>
+                    </div>
+                    <div class="col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
+                        <img src="assets/img/jb/bageera.jpg" class="img-responsive" alt="bageera"/>
+                    </div>
+                    <div class="col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
+                        <img src="assets/img/jb/loui.jpg" class="img-responsive" alt="louie"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p class="text-center">It goes beyond just the mere look of the animals; it's right down to the way each animal behaves and every minute movement that really sells the effect. The fact that the movie makes the wildlife and interactions so believable is truly a credit to the Special Effects department at Disney.
+                        </p>
+                    </div>
+                </div>
+            </div>
+                </div>
+        </div>
+    </section>
+
+
+    <section id="acting" class="text-center">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="mowgli">
+                    <img src="assets/img/jb/mowgli.jpg" class="img-responsive" alt="mowgli"/>
+
+
+                    <h2>Acting</h2>
+                    <p  data-scroll-reveal="enter from the left after 0.2s">While the CGI Animators deserve high praise for the authenticity of the world that is presented in the movie, the burden of driving the emotional connection we feel to it, is borne almost entirely by the young star of the movie, Neel Sethi. He makes the difference of it not being merely a visually stunning and believable environment, but one that we get emotionally invested in, with characters that we care about. It certainly is an impressive feat when you consider that this is his first feature film and he was a mere 10 years old during filming. His acting is mostly convincing, and never exaggerated, and any moments where it is evident that he is acting are easily forgiven when the camera catches his deep engaging gaze. Also, it doesn't hurt that he is incredibly adorable and feels like the mischievous little brother we all wish we had.</p>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="cast" data-scroll-reveal="enter from the bottom after 0.2s">
+                    <p>
+                        The movie also boasts a powerhouse voice-acting cast; of these the most recognizable voices provided by Ben Kingsley, Bill Murray, Lupita Nyong'o, Idris Elba, Scarlett Johansson and Christopher Walken. Bill Murray especially shines as the lovable Baloo and steals the show whenever he's on screen (or should I say, whenever his voice is heard). The comedy is ever present, while being grounded somewhat to make it more believable, but anyone would be hard-pressed to not immediately fall in love with that silly bear. Scarlet Johansson is also quite notable, and despite having a smaller role, completely consumes the screen time as the sinister snake Kaa. Idris Elba also delivers a commanding performance as the fearsome tiger Shere Khan.
+                    </p>
+                    <img src="assets/img/jb/voice-cast.jpg" class="img-responsive" alt="cast"/>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tension">
+        <div class="overlay">
+        <div class="container">
+        <h2>Tension</h2>
+            <div class="row">
+                <div class="col-sm-7">
+                    <p  data-scroll-reveal="enter from the left after 0.2s">
+            There's a great tension in the deeper story of The Jungle Book, especially in terms of the character motivations. There are compelling themes of family and friendship, but I found a more complex theme behind Shere Khan's motivations. There is no doubt that he is the essential antagonist of the story, and painted on the surface as the typical villain. But upon reflection, one has to wonder whether his qualms about Mowgli were not unfounded. His prior experience with man has been as that of an invader and a disruptor of the natural way of the jungle. Man brings with him the "red flower", fire that destroys everything it touches. In fact, all the animals of the jungle fear it for this very reason, and so rightly they should. </p>
+                </div>
+                <div class="col-sm-5">
+                    <img  data-scroll-reveal="enter from the right after 0.3s" src="assets/img/jb/fire.gif" class="img-responsive" alt="fire" />
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-sm-7">
+                    <img  data-scroll-reveal="enter from the right after 0.3s" src="assets/img/jb/snake.jpg" class="img-responsive" alt="kaa" />
+                </div>
+                <div class="col-sm-5">
+            <p  data-scroll-reveal="enter from the left after 0.2s">This is a tension we see in our own world, where nature has suffered much at the hands of human-beings. So Shere Khan is almost justified in his motivations, if not his actions. In the end, even while Mowgli tries to stand up to the tiger's tyranny using fire, he ends up causing destruction despite his best efforts. It raises an interesting question as to whether man can ever truly co-exist peacefully with Nature, without inadvertently causing its ruin.
+        </p>
+                </div>
+            </div>
+            </div>
+    </section>
+
+
+    <section id="final">
+        <div class="overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h2>Conclusion</h2>
+        <p>
+            The Jungle Book is a thrilling adventure film, which captivates its audience with stunning environments, amazing renderings of nature and compelling characters. The story is nothing new and won't deliver much in terms of surprises and plot twists, but The Thing is, the movie still manages to engage its viewers right to the end based on the strength of its incredible visual effects and effective performances.
+
+        </p>
+                </div>
+            </div>
+        
+            </div>
+        </div>
+    </section>
+
+
+    <section id="comments" class="container">
+        <div id="disqus_thread"></div>
+
+        <script>
+            /**
+             * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+             * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+             */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function () { // DON'T EDIT BELOW THIS LINE
+                var d = document,
+                    s = d.createElement('script');
+
+                s.src = '//samanaliethethingis.disqus.com/embed.js';
+
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+        </noscript>
+
+
+    </section>
+
+    
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>The thing is... BvS could be awesome</title>
+	  <link>/thethingis//bvs-could-be-awesome</link>
+	  <author>Samanalie Dias Jayasinha</author>
+	  <pubDate>2016-08-12T00:00:00+05:30</pubDate>
+	  <guid>/thethingis//bvs-could-be-awesome</guid>
+	  <description><![CDATA[
+	     <!--HEADER SECTION END-->
+
+<section class="container-fluid intro">
+<div class="row">
+<div class="col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+
+<p data-scroll-reveal="enter from the bottom after 0.2s">
+Exaggeration and hyperbole aside, I can safely say that Batman v Superman: Dawn of Justice is my most anticipated movie event of 2016. It's hard to believe that it's finally here. Early reviews are leaking through the sieve of Social Media, and everyone seems severely polarized on the topic. The Critics and Fans seem to be having their own showdown in terms of opinions on this movie. I am yet to see it, so this is purely based on my own opinion and speculation of the promotional material released for BvS. This is why I think it has the potential to rock...</p>
+</div>
+</div>
+
+</section>
+
+
+<section class="price-sec text-center container-fluid" id="showdown">
+
+<div class="row">
+
+<div class="col-lg-6  col-md-6 col-xs-6 bat" data-scroll-reveal="enter from the left after 0.1s">
+<div class="overlay"></div>
+
+<h1>Batman</h1>
+<ul class="showdown-list" data-scroll-reveal="enter from the left after 0.4s">
+<li>Superior deduction skills</li>
+<li>Master strategist</li>
+<li>Expert martial artist</li>
+<li>Advanced technology</li>
+<li>Willing to fight dirty</li>
+<li class="weakness">Weakness: Mortality</li>
+</ul>
+
+</div>
+<div class="col-lg-6  col-md-6 col-xs-6 sup" data-scroll-reveal="enter from the right after 0.2s">
+<div class="overlay"></div>
+
+<h1>Superman</h1>
+<ul class="showdown-list" data-scroll-reveal="enter from the right after 0.4s">
+<li>Superhuman strength</li>
+<li>Ability of Flight</li>
+<li>Heat Vision</li>
+<li>Invulnerable in most conditions</li>
+<li class="weakness">Weakness: Kryptonite, Inexperiance</li>
+</ul>
+</div>
+</div>
+
+</section>
+<!--PRICING SECTION END-->
+
+
+<section class="container" id="points">
+<div class="row">
+<div class="col-sm-12 text-center">
+<h1>Things I'm looking forward to:</h1>
+
+<div class="row point" id="batfleck" data-scroll-reveal="enter from the bottom after 0.2s">
+<div class="col-sm-12 col-md-6 col-lg-7">
+<h2>01. Batfleck</h2>
+<p>Despite what the rest of the internet has to say on the subject, I've always been a fan of Ben Affleck. I forgive him for the J-Lo phase (we all make mistakes), and he has certainly come a long way since 2003's Daredevil.</p> <p>Against all odds, and a bevy of naysayers, everyone seems to agree, this just might be the greatest movie incarnation of Batman we have ever seen. Utterly menacing and brutally bad-ass, this is the first Batman that I truly fear, and I mean that in a good way. I mean seriously, would you want to run into this guy in a dark alley? <span class="shudder"> ~ Shudder ~ </span></p>
+</div>
+<div class="col-sm-12 col-md-6 col-lg-5 point-img">
+<img src="assets/img/BatmanReveal.gif" class="img-responsive"/>
+</div>
+</div>
+<div class="row point" id="wonderwoman" data-scroll-reveal="enter from the bottom after 0.2s">
+<div class="col-sm-12 col-md-6 col-lg-7 pull-right">
+<h2>02. Gal Gadot's Wonder Woman</h2>
+<p>Another casting choice that set the internet on fire, but she's sure done a 180, with early reviews hailing her as the best part of the movie, especially considering that she probably has a miniscule amount of screen time in comparison to her male superhero counterparts. I could write an entire article on why I think her casting alone is an important step forward for Hollywood, but I'll hold off on that till I've seen the movie. But rest assured, from what I've seen and heard so far, this woman is both beauty and beast in the best way possible.</p>
+</div>
+<div class="col-sm-12 col-md-6 col-lg-5 point-img">
+<img src="assets/img/Wonder-Woman-shield.jpg" class="img-responsive"/>
+</div>
+
+</div>
+<div class="row point" id="superconflict" data-scroll-reveal="enter from the bottom after 0.2s">
+<div class="col-sm-12 col-md-6 col-lg-7">
+<h2>03. Conflicted Superman</h2>
+<p>
+If I had to choose one thing that I liked about Man of Steel, I would say Henry Cavill. If I had to choose two, then the other would be that the Superman of that movie was more humanized than anything I had seen before. He made mistakes, he ran away from his powers, and he had realistic human parents who mentored him in exactly the way we would expect our parents to treat us if we suddenly manifested superhuman strength; with protective caution. The world is a scary place, and humans tend to be the worst thing about it, so it makes sense for Superman, as an outsider, to be weary and conflicted about how he goes about things. BvS is poised to bring us more depth in that aspect. 
+</p>
+</div>
+<div class="col-sm-12 col-md-6 col-lg-5 point-img" data-scroll-reveal="enter from the bottom after 0.2s">
+<img src="assets/img/supermanKent.jpg" class="img-responsive"/>
+</div>
+</div>
+<div class="row point" id="lex">
+<div class="col-sm-12">
+<h2>04. The Lex Luthor of today</h2>
+<img src="assets/img/lex.jpg" class="img-responsive"/>
+<p>
+It seems like almost every casting decision in this movie has been met with trepidation, and Jesse Eisenberg as Lex Luthor is one that still hasn't proven itself to be bankable. But from what they've given us so far, it seems like this incarnation of the billionaire mastermind is moulded after what most modern billionaires look like today. Young, casual, socially awkward, unassuming enough that we would trust them with vast amounts of our personal information… remind you of anyone? (Zucker…cough). And if that's the case, then who better to play this new Luthor than the very actor who is renowned for portraying one of the real-life billionaire masterminds of our generation.</p>
+</div>
+</div>
+<div class="row point" id="action" data-scroll-reveal="enter from the bottom after 0.2s">
+<div class="col-sm-12">
+<h2>05. Action Action Action</h2>
+<p>
+Say what you want about Zach Snyder, but the man knows how to give us great action scenes. And from that Batman trailer sequence alone (you already know what I'm referring to, because yes it was that good), I think it's safe to expect beautiful and brutal action, which is what Zach Snyder excels at capturing (for evidence, see: 300).
+</p>
+<div class="fight">
+<img src="assets/img/BatmanFight.gif" class="img-responsive"/>
+</div>
+</div>
+</div>
+<div class="row point" id="story" data-scroll-reveal="enter from the bottom after 0.2s">
+<div class="col-sm-12">
+<h2>06. Story, story, story</h2>
+<p>BvS is setting up to tackle some heady issues.</p>
+<img src="assets/img/supersoldiers.jpg" class="img-responsive"/>
+<div class="wr-issues">
+<div class="row">
+<div class="col-sm-3 issue" data-scroll-reveal="enter from the left after 0.4s"><span>Balance of power</span></div>
+<div class="col-sm-3 issue" data-scroll-reveal="enter from the left after 0.4s"><span>The consequences of conflict</span></div>
+<div class="col-sm-3 issue" data-scroll-reveal="enter from the right after 0.7s"><span>Media bias</span></div>
+<div class="col-sm-3 issue" data-scroll-reveal="enter from the right after 0.7s"><span>Government suspicion</span></div>
+</div>
+<div class="row">
+<div class="col-sm-3 issue" data-scroll-reveal="enter from the left after 0.4s"><span>Corruption of justice</span></div>
+<div class="col-sm-3 issue" data-scroll-reveal="enter from the left after 0.4s"><span>Prejudice</span></div>
+<div class="col-sm-3 issue" data-scroll-reveal="enter from the right after 0.7s"><span>Conspiracy theories</span></div>
+<div class="col-sm-3 issue" data-scroll-reveal="enter from the right after 0.7s"><span>Faith in humanity as a whole</span></div>
+</div>
+</div>
+<p>
+...just to name a few. Just to be clear, this movie has a flying alien, glowing meteorites, a genetic hybrid monster, and a grown man dressed as a bat. Throwing these real world topics into the mix is what will make the movie worth investing in emotionally.
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section class="testi-sec">
+<div class="overlay">
+<div class="container">
+<div class="row text-center">
+<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+<h4 data-scroll-reveal="enter from the bottom after 0.8s">
+<p>
+
+Are there things that I'm anxious about regarding this movie? Sure. Trying to avoid critic reviews is like holding your breath; you can only do it for so long. Will this be a perfect movie? Highly unlikely. But the thing is, this is Batman v Superman; childhood heroes battling it out on the big-screen like we've never seen them before. Sure there might be things to gripe about. But I don't want to gripe. I don't want to fight. Let's leave that to Bats and Supes.</p> <p>So I'm setting aside my expectations, and I'm just strapping in for the ride. Just bring it on BvS… I am so ready.</p>
+
+</h4>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>The thing is... BvS is Different</title>
+	  <link>/thethingis//bvs-is-different</link>
+	  <author>Samanalie Dias Jayasinha</author>
+	  <pubDate>2014-08-12T00:00:00+05:30</pubDate>
+	  <guid>/thethingis//bvs-is-different</guid>
+	  <description><![CDATA[
+	     <section class="container-fluid intro">
+<div class="row">
+
+<div class="col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+
+<h3 class="warning">*Warning* Spoilers ahead. If you haven't seen the movie yet, I would encourage you to watch it before you read this.</h3>
+
+</div>
+</div>
+
+</section>
+
+<section class="container-fluid aside">
+<div class="overlay"> </div>
+<div class="row">
+
+<div class="col-sm-10 col-sm-offset-1">
+
+<p data-scroll-reveal="enter from the top after 0.2s"><span class="italic">Just on a side note;</span> several months ago, during the height of my anticipation for the then upcoming Batman v Superman: Dawn of Justice movie, a funny realization struck me. Clark Kent's mother is named Martha Kent. And Bruce Wayne's mother is named Martha Wayne. I was marveling (no pun intended), that two of DC Comics' greatest heroes have mothers with the exact same first name. I even joked about it with friends, saying 'you would think that they would have at least tried to find different names for such prominent characters in the story.' I mildly wondered to myself if they would have to awkwardly shrug that off in the film and make it not seem like such a blaring coincidence. Never in a million years did I think that that one idea would end up being the lynch pin for the events in BvS. </p>
+</div>
+</div>
+
+</section>
+
+
+<section class="container-fluid review-sec1">
+<div class="overlay"> </div>
+<div class="row">
+
+<div class="col-sm-8 col-sm-offset-2">
+
+<p>Batman v Superman: Dawn of Justice was probably the most unique movie I have ever seen in the superhero genre. I cannot with a clear conscience say that it was the best superhero movie I have ever seen. But without a doubt, it was the superhero movie that made me think the most. Walking out of the theatre, my mind was reeling with a plethora of mysteries, plot points, character arcs and questions. Sitting in the theatre, I hardly had time to process one scene of intense character drama, before I was whisked away to another scene of epic special effects, before cutting into yet another scene of dense philosophical discussion. I couldn’t switch my brain off for even a second, because even a spectacular fight sequence was crafted with such care and detail, that there were dozens of appreciable elements floating in the nooks and crannies of the scene. Sometimes the editing even felt jarring and erratic. </p>
+<p>There was just too much to be seen, there was just so much of this world to be explored, and if I blinked I would miss it. So I soaked it all in. BvS kept me on my toes the entire time… <span class="italic">and this was a good thing.</span>
+</p>
+</div>
+</div>
+
+</section>
+
+
+<section class=" review-sec2">
+<div class="container">
+<div class="row">
+
+<div class="col-sm-12">
+
+
+</div>
+</div>
+</div>
+</section>
+<div class="container-fluid">
+<div class="row">
+<div id="levity">
+<div class="overlay"></div>
+<div class="container">
+<p>As a general rule I have appreciated almost all comic book movie adaptations (I could even appreciate the bold choices in the most recent Fantastic Four movie/disaster, even if that movie was so fatally flawed). But I believe to a certain extent, any Superhero movie that succeeded in the world of audiences and critics, has followed a similar formula; a certain flavor sprinkled throughout that makes it universally accessible. Have a linear story to follow. Focus on only a few central plots. Throw in some easter eggs for the die-hard fans. And levity. Lots of levity. Even in the aftermath of the world literally crashing down around our heroes, they're in the mood for shawarma. Key to success: Have. Plenty. Of. Levity.
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<section class=" review-sec3">
+<div class="container">
+<div class="row">
+
+<div class="col-sm-12">
+
+<p>Batman v Superman breaks pretty much all these rules. It's story is non-linear, jumping without warning between the past and the present, dreams and reality. It juggles a multitude of plots varying in size and significance. It's stuffed full of nods to comic fans, that left most general audiences scratching their heads.</p>
+</div>
+<div class="col-sm-6">
+<p>And as for levity... well, I suppose Lex Luthor was a little comedic? No? Maybe? No?</p>
+</div>
+<div class="col-sm-6">
+<img src="assets/img/funnylex.gif" class="img-responsive" />
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="container-fluid" id="points">
+<div class="row">
+<div class="col-sm-12 text-center">
+<div class="container">
+<div class="row point" id="characters" data-scroll-reveal="enter from the bottom after 0.2s">
+<div class="col-sm-12 col-md-6 col-lg-7">
+<h2>Characters</h2>
+<p>The characters felt mature and had depth. Everyone seemed to be haunted by something. Batman, with the loss of his parents, his morals, his hope. Superman, with the consequences and guilt of his attempts at heroism. Lex Luthor, with the psychological trauma caused by his father and the cynicism of God and power. Wonder Woman, with the loss of her faith in the good of humanity. Even the ordinary people of society were dealing with the aftermath of the events of Man of Steel, and divisive views of Superman. So much personal baggage was woven throughout this movie; some blatantly obvious (Bruce Wayne haunted by his parent's death), some merely hinted at in snatches of dialogue (Lex offhandedly referencing his difficult childhood with his father). Everyone felt real, especially mankind's polarizing response to Superman's presence. Let's be real, if a superhuman alien showed up in our world today, a good portion of the population would respond with suspicion and fear, and they would be justified in doing so. Despite all the mythic grandeur of this movie, the people it depicted felt surprisingly grounded.</p>
+</div>
+<div class="col-sm-12 col-md-6 col-lg-5">
+<div class="point-img">
+<div id="char-superman" data-scroll-reveal="enter from the top after 0.2s"><img src="assets/img/character-superman.png" class="img-responsive" />
+</div>
+
+<div id="char-wonderwoman" data-scroll-reveal="enter from the right after 0.2s"><img src="assets/img/character-wonderwoman.png" class="img-responsive" />
+<div id="char-batman" data-scroll-reveal="enter from the left after 0.2s"><img src="assets/img/character-batman.png" class="img-responsive" />
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row point" id="action" data-scroll-reveal="enter from the bottom after 0.2s">
+<div class="col-sm-12 col-md-6 col-lg-7 pull-right">
+<h2>Action</h2>
+<p>The action was like watching motion art. Brutal fight scenes were difficult to watch but at the same time transfixing in their sheer fluidity and beauty. Each battle had its own visual style that captured the atmosphere of the situation. Batman's fight with two dozen thugs felt tight and up-close to the camera, brutal to the point that we could feel the pain of each punch. The namesake fight between Superman and Batman was more spread out over various environments and surroundings as the heroes pushed and threw each other around with furiosity. The final battle with Doomsday was the very definition of epic with each hero bringing their own fighting style and skills to the match. It was nothing short of gleeful to see Wonder Woman take the lead in aggressively attacking Doomsday and showing her prowess as a centuries-old warrior.</p>
+</div>
+<div class="col-sm-12 col-md-6 col-lg-5 point-img">
+<img src="assets/img/underfoot.jpg" class="img-responsive" />
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="row point" id="story">
+<div class="overlay"></div>
+<div class="col-sm-12" data-scroll-reveal="enter from the bottom after 0.2s">
+<h2>Story</h2>
+<p>But what captivated me most about BvS, was the story arc of the characters. Especially the main two. Batman started as a jaded, wasted, shell of a man, brutally branding the criminals he apprehends, and outright refusing to see any good in the world around him, most specifically in Superman. Superman for his part was struggling with the increasing doubt as to his true purpose on earth, even as he felt the weight of guilt for his actions. He was torn between the responsibility of protecting the world around him while also protecting the only family he has left on this planet, the two women he loves; Martha Kent and Lois Lane.</p>
+<p>While Batman and Superman were pitched as visual juxtapositions of each other, Day vs Night, the metaphor runs deeper. Batman is devoid of hope. Superman is the very embodiment of hope.</p>
+
+<p>Batman only sees darkness in people, so he is blinded to the goodness of Superman. Superman on the other hand, is so willing to believe the best in people, that he fails to see the threat in them. This was masterfully captured in the senate explosion scene. The look of utter defeat and shame on Superman's face in the immediate aftermath of the explosion, showed his realization that his naive optimism had been his biggest hindrance. But by the end, Superman succeeds in being the ultimate beacon of light and hope, awakening hope in the dark shadows of Batman's life. The change in Batman from the beginning of the movie to the end is palpable. And that is perhaps Superman's greatest achievement in a movie titled Batman v Superman.</p>
+</div>
+
+<!--<div class="col-sm-12 col-md-6 col-lg-5 point-img" data-scroll-reveal="enter from the bottom after 0.2s">
+SENATE EXPLOSION AFTERMATH IMAGE 
+</div>-->
+</div>
+
+<div class="container">
+<div class="row point" id="performances">
+<div class="col-sm-12">
+<h2>Performances</h2>
+</div>
+<div class="col-sm-6" data-scroll-reveal="enter from the bottom after 0.2s">
+<p>The acting in this movie was spectacular. Henry Cavill was brilliant as a layered and conflicted Superman that for once, we could all relate to. Ben Affleck shined as a beaten and brutal Batman. And Gal Gadot, while having minimal screen time, electrified every scene she was in.</p>
+
+<div class="row">
+<div class="col-sm-12">
+<p>On a personal note, it felt amazing to see a woman in a superhero movie depicted with such grace, beauty and power, without being relegated to eye-candy and objectification to please the teenage fanboys. (ahem... Black Widow).
+</p>
+</div>
+<div class="col-sm-12">
+<img src="assets/img/galgadot.jpg" class="img-responsive" />
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<img src="assets/img/clark.jpg" class="img-responsive" />
+<img src="assets/img/bruce.jpg" class="img-responsive" />
+</div>
+</div>
+
+
+<div class="row point" id="others">
+<div class="col-sm-12">
+<h3>Other points of interest</h3>
+
+
+<div class="row list">
+<div class="col-sm-4"><h4>Visuals</h4> Zack Snyder's knack for creating breathtaking visuals is evidenced throughout the movie. An exorbitant amount of attention to detail shines through, and scenes are shot in exciting perspectives and angles. There's are also heavy religious references throughout the movie; Superman obviously being a Christ-like figure. I noticed this especially in the scene where Superman's dead body is carefully handed down from a height by Batman to Wonder Woman, and is transferred to the lap of a weeping Lois Lane. It visually played out similarly to the Biblical moment when Jesus' body is brought down from the cross and lain in his mother Mary's lap. Powerful and captivating imagery.</div>
+<div class="col-sm-4"><h4>Plot Twists</h4> Warner Bros. kind of screwed up by revealing too much of the movie's main beats in pre-release trailers. However, there were still a few moments in the movie that hit me out of nowhere. The explosion at the Senate for one (Granny's Peach Tea, anyone?). But in a much bigger way, the death of Superman at the end was completely unexpected and a bold move to make. Call Zack Snyder what you like, but a predictable storyteller he most certainly is not.
+</div>
+<div class="col-sm-4"><h4>Score</h4> Hanz Zimmer and Junkie XL have crafted a masterpiece of a score which truly becomes its own character in the movie. It was good to hear the epic and moving Superman theme from Man of Steel reprised, and Lex Luthor's theme expertly conveys the character's intrigue and overall creepiness. If there was such a thing as the quintessential comic supervillain theme, this would be it. But the standout track is without a doubt the Wonder Woman theme. I challenge anyone to listen to it and not feel like they could muster up the energy to break down a door; it's the definition of kick-ass.</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+</section>
+
+<section id="summary">
+<div class="overlay">
+<div class="container">
+<div class="row text-center">
+<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+<h4 data-scroll-reveal="enter from the bottom after 0.4s">
+<p>In all honesty, it is mildly exhausting to watch BvS. Because it isn't a relaxing movie. It will not let its audience settle into any sort of comfort zone. Above all, it makes you think. And some people may not enjoy that in a superhero genre movie. And that's fair. But personally, it was refreshing to not have everything spelt out for me, and to have to infer the motivations and histories of characters. Yes BvS was exhausting, but it was exhausting like a great work-out that leaves you tired but energized. If there's one hallmark of Batman v Superman: Dawn of Justice, it was that it was different, but the thing is... I loved that about it.</p>
+</h4>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
