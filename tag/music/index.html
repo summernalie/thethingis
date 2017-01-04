@@ -29,19 +29,12 @@
     
    
     <!-- [[! Styles'n'Scripts ]] -->
-    <!--<link rel="stylesheet" type="text/css" href="/thethingis/assets/css/screen.css" />-->
-    <link rel="stylesheet" type="text/css"
-          href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
-    <link rel="stylesheet" type="text/css" href="http://www.samanalie.com/thethingis/assets/css/syntax.css" />
+    
+    
     <link rel="stylesheet" type="text/css" href="http://www.samanalie.com/thethingis/assets/css/common.css" />
     <!-- CUSTOM STYLE CSS -->
     <link href="../../assets/css/landing.css" rel="stylesheet" />
-    <!-- [[! highlight.js ]] -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
-    <style>.hljs { background: none; }</style>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-
+    
     <!-- [[! Ghost outputs important style and meta data with this tag ]] -->
         <link rel="canonical" href="/thethingis/" />
     <meta name="referrer" content="origin" />
@@ -64,9 +57,9 @@
 {
     "@context": "http://schema.org",
     "@type": "Website",
-    "publisher": "Finding The Way Home",
+    "publisher": "Samanalie",
     "url": "/thethingis/",
-    "image": "/thethingis/assets/images/cover1.jpg",
+    "image": "/thethingis/assets/img/collage.jpg",
     "description": "Thoughts on Movies, Books and TV"
 }
     </script>
@@ -75,7 +68,10 @@
     <link rel="alternate" type="application/rss+xml" title="The Thing Is..." href="/thethingis/feed.xml" />
 
     
-    <div class="navbar-fixed-top move-me" id="menu">
+
+</head>
+    
+     <div class="navbar-fixed-top move-me" id="menu">
     <a id="logo" href="/thethingis/">
         <img src="http://www.samanalie.com/thethingis/assets/img/logo.png" alt="The Thing Is" />
     </a>
@@ -102,8 +98,6 @@
         </div>
     </nav>
 </div>
-
-</head>
 <body class="tag-template nav-closed">
 
    <!-- <div class="navbar-fixed-top move-me" id="menu">
@@ -206,15 +200,15 @@
 
     <div class="myfooter">
         <div class="container">
-        <!--<ul class="social">
+        <ul class="social">
             <li>
-            <div class="fb-share-button" data-href="http://samanalie.com/thethingis/lotr/the-lord-of-the-rings-unexpected-hero" data-layout="button" data-mobile-iframe="true"></div>
+            <div class="fb-share-button" data-href="" data-layout="button" data-mobile-iframe="true"></div>
             </li>
             <li>
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://samanalie.com/thethingis/lotr/the-lord-of-the-rings-unexpected-hero" data-text="The Lord of The Rings is a story of The Unexpected Hero">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="">Tweet</a>
             </li>
 
-        </ul> -->
+        </ul> 
         <span>The Thing Is | by: Samanlie</span>
             </div>
     </div>
@@ -233,6 +227,19 @@
     
     <script src=""></script>
 
+    <!--  Facebook Share Script -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
+    <!--  Twitter Share Script -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    
     <!-- Add Google Analytics  -->
         <!-- Google Analytics Tracking code -->
      <script>
@@ -241,9 +248,10 @@
 	    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	    ga('create', 'UA-69281367-1', 'auto');
+	    ga('create', 'UA-75516975-1', 'auto');
 	    ga('send', 'pageview');
 
-     </script>   
+     </script>
+   
 </body>
 </html>
