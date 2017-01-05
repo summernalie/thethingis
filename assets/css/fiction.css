@@ -85,6 +85,7 @@ h1 {
 }
 
 .article-content {
+    margin-top: -150px;
     background: #fff;
     color: #000;
     padding: 20px;
