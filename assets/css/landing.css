@@ -338,8 +338,25 @@ body {
     height: 500px !important;
     text-decoration: none;
 }
-.portion h3 {
-    
+.portion8 {
+    display: block;
+    margin-top: 0;
+    padding-top: 150px;
+     background: url(../img/starwars/banner.jpg) no-repeat top center;
+    background: url(../img/silkscreen.svg), url(../img/starwars/banner.jpg);
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    /*-webkit-background-size: cover;
+    background-size: cover;*/
+    color: #fff;
+    height: 500px !important;
+    text-decoration: none;
+}
+.portion8 h2 {
+    color: #c4dde2;
+    font-size: 45px;
+    text-shadow: 3px 3px 1px #0e212f;
 }
 
 /*=====================================
