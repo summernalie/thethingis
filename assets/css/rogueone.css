@@ -124,6 +124,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5e0e8', end
     font-size: 17px;
     line-height: 24px;
 }
+#sec2 img.one {
+    float: right;
+}
+#sec2 img.two {
+    float: left;
+}
 img.fullsize {
     width: 100%;
 }
@@ -188,6 +194,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56abca', end
 }
 
 @media screen and (max-width: 767px) {
+    
     #menu.shrink h1 {
         font-size: 10px;
         line-height: 12px;
@@ -200,6 +207,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56abca', end
         font-size: 46px;
         line-height: 50px;
         margin-bottom: 10px;
+    }
+    #sec2 img {
+        float: none !important;
     }
     #sec6 {
         padding-bottom: 100px;
