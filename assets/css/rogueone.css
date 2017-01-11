@@ -209,6 +209,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56abca', end
         margin-bottom: 10px;
     }
     #sec2 img {
+        width: 100% !important;
         float: none !important;
     }
     #sec6 {
