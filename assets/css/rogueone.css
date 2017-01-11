@@ -199,6 +199,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56abca', end
         font-size: 10px;
         line-height: 12px;
     }
+    #intro {
+        margin-top: 80px;
+    }
     #intro h1 {
         font-size: 36px;
         line-height: 42px;
