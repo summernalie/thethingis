@@ -395,12 +395,34 @@ body {
     font-weight: 100;
 }
 .tags article {
+    min-height: 300px;
     padding: 20px;
     background: rgba(255, 255, 255, 0.1);
     margin-bottom: 30px;
+    position: relative;
+    background-position: top center;
+    background-size: 4px 4px, cover;
+    background-repeat: repeat, no-repeat;
+}
+.tags article img {
+    /*position: absolute;*/
+    width: 100%;
+}
+.tags .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 .tags article a {
     color: #fff;
+}
+.tags .post-header {
+    position: relative;
+    z-index: 2;
 }
 .tags article h2 {
     font-size: 26px;

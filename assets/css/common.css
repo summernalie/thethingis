@@ -59,18 +59,23 @@ nav .navbar-nav {
     font-weight: 200;
     text-decoration: none;
 }
+.navbar-nav > li.nav-movies.active > a,
 .navbar-nav > li.nav-movies > a:hover {
     color: #dd0000;
 }
+.navbar-nav > li.nav-tv.active > a,
 .navbar-nav > li.nav-tv > a:hover {
     color: #b400ff;
 }
+.navbar-nav > li.nav-books.active > a,
 .navbar-nav > li.nav-books > a:hover {
     color: #0090ff;
 }
+.navbar-nav > li.nav-fiction.active > a,
 .navbar-nav > li.nav-fiction > a:hover {
     color: #02fceb;
 }
+.navbar-nav > li.nav-music.active > a,
 .navbar-nav > li.nav-music > a:hover {
     color: #96ff00;
 }

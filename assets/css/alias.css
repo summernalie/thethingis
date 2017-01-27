@@ -142,6 +142,16 @@ h1 {
     text-align: center;
     position: relative;
 }
+.infographic ul li svg path {
+    fill: #fff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.infographic ul li[data-scroll-reveal-complete="true"] svg path {
+    fill: #D80027;
+}
 .infographic ul li:before {
     content: '↓';
     position: absolute;
@@ -173,6 +183,7 @@ h1 {
 
 
 #standouts {
+    max-width: 1200px;
     margin-top: 50px;
     color: #fff;
 }
@@ -225,6 +236,9 @@ h1 {
     }
     #bill2 {
         font-size: 70px;
+    }
+    .sec1 p {
+        background: rgba(0, 0, 0, 0.85);
     }
     .sec1 p:first-child {
         margin: 0;
