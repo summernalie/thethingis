@@ -44,7 +44,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-4" data-scroll-reveal="enter from the bottom after 0.2s">
-                        <img src="assets/img/starwars/cast-bad.jpg" class="img-responsive" alt="Rogue One Cast" />
+                        <img src="assets/img/starwars/cast-bad.jpg" class="one img-responsive" alt="Rogue One Cast" />
                     </div>
                     <div class="col-sm-4 text-center" data-scroll-reveal="enter from the bottom after 0.2s">
                         
@@ -54,7 +54,7 @@
                         
                     </div>
                     <div class="col-sm-4" data-scroll-reveal="enter from the bottom after 0.2s">
-                        <img src="assets/img/starwars/cast-good.jpg" class="img-responsive" alt="Rogue One Cast" />
+                        <img src="assets/img/starwars/cast-good.jpg" class="two img-responsive" alt="Rogue One Cast" />
                     </div>
                 </div>
             </div>
@@ -94,8 +94,7 @@
                         <p data-scroll-reveal="enter from the bottom after 0.2s">
                             The action is well choreographed, and feels dangerous. In an age where nearly every action movie borrows from the school of Jason Bourne's quick-cut mayhem, it's wonderful to see the action through steady, long-held camera shots. It allows us to truly appreciate each moment of choreography. Donnie Yen especially lends a sense of believability to his action scenes, as he obviously knows what he's doing. The movie as a whole divides its action into two halves, where the first hour of the film has more close-quartered action, while the final hour moves to a grander scale with epic space battles. Both are handled exceptionally well.</p>
                         <p class="note" data-scroll-reveal="enter from the bottom after 0.2s">
-                           One issue I had: The notion of debilitating a Storm Trooper using hand to hand combat seemed a little too convenient. I mean, that is armour that they're wearing, right?
-</p>
+                           One issue I had: The notion of debilitating a Storm Trooper using hand to hand combat seemed a little too convenient. <em>I mean, that is armour that they're wearing, right?</em></p>
                     </div>
 
                 </div>
