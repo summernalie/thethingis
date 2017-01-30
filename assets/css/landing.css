@@ -359,6 +359,28 @@ body {
     text-shadow: 3px 3px 1px #0e212f;
 }
 
+
+.portion9 {
+    display: block;
+    margin-top: 0;
+    padding-top: 150px;
+     background: url(../img/alias/red2.jpg) no-repeat top center;
+    background: url(../img/silkscreen.svg), url(../img/alias/red2.jpg);
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    /*-webkit-background-size: cover;
+    background-size: cover;*/
+    color: #fff;
+    height: 500px !important;
+    text-decoration: none;
+}
+.portion9 h2 {
+    color: #fff;
+    font-size: 45px;
+    text-shadow: 3px 3px 1px #D80027;
+}
+
 /*=====================================
   FOOTER STYLES 
     ===================================*/
