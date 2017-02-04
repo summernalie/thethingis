@@ -1,5 +1,8 @@
 // external js: isotope.pkgd.js
-
+$(document).ready(function (){
+    
+    $grid.isotope({ sortBy: 'level' });
+});
 
 // init Isotope
 var $grid = $('.grid').isotope({
