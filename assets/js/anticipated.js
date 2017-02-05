@@ -4,6 +4,12 @@ $(document).ready(function (){
     $grid.isotope({ sortBy: 'level' });
 });
 
+
+$(".modal").on('hidden.bs.modal', function (e) {
+    var current = $(this);
+    $(current).find("iframe").attr("src", $(current).find("iframe").attr("src"));
+});
+
 // init Isotope
 var $grid = $('.grid').isotope({
   itemSelector: '.element-item',

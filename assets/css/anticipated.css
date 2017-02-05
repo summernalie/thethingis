@@ -460,22 +460,18 @@ p.instructions {
     }
     h1 {
         margin-top: 50px;
+        font-size: 50px;
     }
-    #bill1 {
-        font-size: 80px;
+    .button-group .button {
+        width: 49%;
+        margin: 0.25%;
     }
-    #bill2 {
-        font-size: 70px;
+    .button-group .button[data-filter=".scifi"],
+    .button-group .button[data-filter=".unknown"]{
+        width: 49%;
     }
-    .sec1 p {
-        background: rgba(0, 0, 0, 0.85);
+    #sorts {
+        max-width: none;
     }
-    .sec1 p:first-child {
-        margin: 0;
-        padding: 0;
-    }
-    #standouts .row:nth-child(odd) h4,
-    #standouts .row:nth-child(odd) p {
-        text-align: left;
-    }
+    
 }
