@@ -4,7 +4,7 @@ $(document).ready(function (){
     $grid.isotope({ sortBy: 'level' });
     
     
-    $('.element-item').bind('touchstart touchend', function(e) {
+    $('.element-item').bind('touchstart', function(e) {
         //e.preventDefault();
         
         if ($(this).hasClass('hover_effect')) {
