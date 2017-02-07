@@ -5,7 +5,7 @@ $(document).ready(function (){
     
     
     $('.element-item').bind('touchstart touchend', function(e) {
-        e.preventDefault();
+        //e.preventDefault();
         
         if ($(this).hasClass('hover_effect')) {
             $(this).removeClass('hover_effect')
