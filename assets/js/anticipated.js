@@ -6,7 +6,15 @@ $(document).ready(function (){
     
     $('.element-item').bind('touchstart touchend', function(e) {
         e.preventDefault();
-        $(this).toggleClass('hover_effect');
+        
+        if ($(this).hasClass('hover_effect')) {
+            $(this).removeClass('hover_effect')
+        }
+        else {
+            $(this).addClass('hover_effect');    
+        }
+        
+        
     });
     
 });
