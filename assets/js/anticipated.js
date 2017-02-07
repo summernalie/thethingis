@@ -2,6 +2,13 @@
 $(document).ready(function (){
     
     $grid.isotope({ sortBy: 'level' });
+    
+    
+    $('.element-item').bind('touchstart touchend', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('hover_effect');
+    });
+    
 });
 
 

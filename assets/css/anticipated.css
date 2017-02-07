@@ -178,6 +178,8 @@ p.instructions {
     background-position: center top;
     background-size: 4px 4px, cover;
     background-repeat: repeat, no-repeat;
+    -webkit-user-select: none;
+-webkit-touch-callout: none; 
 }
 
 .element-item > * {
@@ -256,15 +258,20 @@ p.instructions {
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
-.element-item:hover .overlay {
+.element-item:hover .overlay,
+.element-item.hover_effect .overlay {
     background: rgba(255, 255, 255, 0.9);
 }
 .element-item:hover p,
-.element-item:hover h3 {
+.element-item:hover h3,
+.element-item.hover_effect p,
+.element-item.hover_effect h3 {
     display: none;
 }
 .element-item:hover span,
-.element-item:hover a {
+.element-item:hover a,
+.element-item.hover_effect span,
+.element-item.hover_effect a {
     display: block;
 }
 
