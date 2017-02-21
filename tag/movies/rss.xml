@@ -43,8 +43,8 @@
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
                 <p data-scroll-reveal="enter from the bottom after 0.2s">2017 is shaping up to be an exciting year in Movies. There's sure to be at least a couple that are on everyone's radar, but with such a vast array of movies coming up, it's easy to miss out on a few. So for easy reference, here are some of the upcoming movie releases in 2017 that ooze potential, and have our curiosities piqued. <br/>(Note: This is not a comprehensive list, just some of the ones that I'm personally anticipating.)</p>
-                <p class="instructions">
-                    Hover over each movie, to see why you should be excited and to view the trailers (where available). You can also filter the movies by genre or popularity, and sort by release date or my level of anticipation.
+                <p class="instructions" data-scroll-reveal="enter from the bottom after 0.2s">
+                    Hover over each movie, to see why you should be excited and to view the trailers (if you're on a mobile device, tap on a movie). You can also filter the movies by genre or popularity, and sort by release date or my level of anticipation.
                 </p>
             </div>
         </div>
@@ -208,7 +208,7 @@
             <h3 class="name">The Lego Batman Movie</h3>
             <p class="release">10 February 2017</p>
             <p class="level">16</p>
-            <span>Just when we'd all settled on Batman as the darkest, most serious superhero ever, here come the Lego Batman Movie, to show us a completely different take on the Dark Knight. The trailers have been hilarious, poking fun at the stoic and dark nature of the character, with even a little jab at Batman v Superman. It looks to be a fun and entertaining movie going experience.
+            <span>Just when we'd all settled on Batman as the darkest, most serious superhero ever, here comes the Lego Batman Movie, to show us a completely different take on the Dark Knight. The trailers have been hilarious, poking fun at the stoic and dark nature of the character, with even a little jab at Batman v Superman. It looks to be a fun and entertaining movie going experience.
             </span>
             <a data-toggle="modal" data-target="#modal-lego">Trailer</a>
         </div>
@@ -309,18 +309,18 @@
             <h3 class="name">Their Finest</h3>
             <p class="release">7 April 2017</p>
             <p class="level">14</p>
-            <span>If Dunkirk is a little too intense for you, Their Finest examines World War 2 through a different perspective. A female screen-writer in a British film crew, must overcome stereotypes and discrimination to do her part to help in the war. While the movie is set in a difficult period, it presents a heart-warming and comic side to the story, that should make it accessible to everyone, with charming performances by Gemma Arterton, Sam Claflin and Bill Nighy.</span>
+            <span>If Dunkirk is a little too intense for you, Their Finest examines World War 2 through a different perspective. A female screen-writer in a British film crew, must overcome stereotypes to do her part to help in the war. Though set in a difficult period, the film presents a heart-warming and comedic story, with charming performances by Gemma Arterton, Sam Claflin and Bill Nighy.</span>
             <a data-toggle="modal" data-target="#modal-finest">Trailer</a>
         </div>
-        <div class="element-item drama comedy romance unknown" id="rachel">
+        <div class="element-item drama romance unknown" id="rachel">
             <div class="overlay"></div>
             <h3 class="name">My Cousin Rachel</h3>
             <p class="release">14 July 2017</p>
             <p class="level">27</p>
-            <span>If you like your Jane Austen stories with a darker flavour, then My Cousin Rachel looks to be right up your alley. Based on the popular Daphne Du Maurier novel, the film stars Sam Claflin and Rachel Weiz in a mysterious and twisted love story. I haven't read the novel, but the trailer alone has me curious about this story.</span>
+            <span>If you like your period dramas with a darker flavour than typical Jane Austen-fare, then My Cousin Rachel looks to be right up your alley. Based on the popular Daphne Du Maurier novel, the film stars Sam Claflin and Rachel Weiz in a mysterious and twisted love affair. I haven't read the novel, but the trailer alone has me curious about this story.</span>
             <a data-toggle="modal" data-target="#modal-rachel">Trailer</a>
         </div>
-        <div class="element-item drama action thriller" id="city">
+        <div class="element-item drama action thriller unknown" id="city">
             <div class="overlay"></div>
             <h3 class="name">The Lost City of Z</h3>
             <p class="release">21 April 2017</p>
@@ -328,7 +328,7 @@
             <span>The Lost City of Z revolves around the real-life story of a British explorer on his search for a forgotten city in the depths of the amazon. The movie looks to blend adventure with the eeriness of the unknown, and stars Carlie Hunnam and Robert Pattinson, who just happens to be sporting a glorious beard. Uncharted territory indeed.</span>
             <a data-toggle="modal" data-target="#modal-city">Trailer</a>
         </div>
-        <div class="element-item action" id="wick">
+        <div class="element-item action known" id="wick">
             <div class="overlay"></div>
             <h3 class="name">John Wick: Chapter 2</h3>
             <p class="release">10 February 2017</p>
