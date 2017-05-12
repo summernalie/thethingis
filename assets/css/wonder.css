@@ -8,8 +8,15 @@
 @font-face {
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
     src: url('../fonts/raleway/Raleway-Regular.ttf');
+    /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/raleway/Raleway-Medium.ttf');
     /* IE9 Compat Modes */
 }
 @font-face {
@@ -68,7 +75,7 @@ h1 {
     margin: 0 0 20px 0;
     padding-top: 50px;
     font-family: 'Liberty', 'Montserrat', sans-serif;
-    font-size: 42px;
+    font-size: 52px;
     font-weight: 300;
 }
 section {
@@ -85,6 +92,7 @@ section .overlay {
 }
 section p {
     padding: 20px 0;
+    font-weight: 600;
 }
 .spacer {
     max-height: 400px;
@@ -109,7 +117,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     position: relative;
     z-index: 99;
     position: absolute;
-    top: 500px;
+    top: 420px;
     width: 100%;
 }
 .wr-logo {
@@ -117,7 +125,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     float: left;
 }
 .wr-logo img {
-    max-width: 100%;
+    max-height: 400px;
 }
 .logo-left {
     text-align: right;
@@ -131,11 +139,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     position: absolute;
     width: 100%;
     font-family: 'Liberty', 'Garamond', sans-serif;
-    top: 200px;
+    top: 140px;
     color: #e5a71c;
 
 }
 #intro h1 i {
+    width: 100%;
+}
+#intro h1 i#upper {
     font-style: normal;
     display: block;
     font-weight: 300;
@@ -150,8 +161,21 @@ background: linear-gradient(to bottom, rgba(255,238,183,1) 1%,rgba(226,185,2,1) 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffeeb7', endColorstr='#ffeaa8',GradientType=0 ); /* IE6-9 */
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+    position: absolute;
+}
+#intro h1 i#shadow {
+    font-style: normal;
+    display: block;
+    font-weight: 300;
+    font-size: 100px;
+    letter-spacing: 15px;
+    text-shadow: 1px 1px 3px #000;
+    font-family: 'Liberty', 'Garamond', sans-serif;
+    position: absolute;
 }
 #intro h1 span {
+    display: inline-block;
+    margin-top: 100px;
     letter-spacing: 5px;
     text-shadow: 1px 1px 3px #000;
     text-transform: uppercase;
@@ -166,7 +190,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffeeb7', end
 }
 
 #sec1 {
-    padding: 50px 0;
+    padding: 80px 0 50px 0;
     background: #000;
     color: #f3d833;
    background: rgb(72,0,1); /* Old browsers */
@@ -221,14 +245,17 @@ img.fullsize {
 .point .overlay {
     z-index: 1;
 }
-.point h2, img, p {
+.point h2, .point h3, img, p {
     position: relative;
     z-index: 3;
 }
-.point h2 {
+.point h3 {
     font-family: 'Raleway', 'Garamond', sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 4px;
+    margin: 40px 0 20px 0;
 }
 #point1 {
     background: rgb(202,216,225);
@@ -236,6 +263,7 @@ background: -moz-linear-gradient(left, rgba(202,216,225,1) 0%, rgba(125,185,232,
 background: -webkit-linear-gradient(left, rgba(202,216,225,1) 0%,rgba(125,185,232,1) 100%);
 background: linear-gradient(to right, rgba(202,216,225,1) 0%,rgba(125,185,232,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cad8e1', endColorstr='#7db9e8',GradientType=1 );
+    padding-bottom: 40px;
 }
 #point1 .overlay {
     background: url(../img/ww/bg.jpg) right center no-repeat;
@@ -256,15 +284,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8df62', end
     background-size: cover;
     opacity: 0.3;
 }
+#point2 h3 {
+    text-align: center;
+}
 #point2 #gal {
     float: left;
-        margin-right: 30px;
+        
+    width: 35%;
+}
+#point2 #wr-gal {
+    width: 60%;
+    float: right;
+        
 }
 #point2 p {
     padding: 20px 40px 20px 0;
 }
 
 #point3 {
+    text-align: center;
     padding: 30px 0 50px 0;
   /*  
 background: rgb(231,144,117);
@@ -285,7 +323,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e79075', end
 
     background: #000;
 color: #fff;
-
+padding: 40px 0;
 }
 .wr-taglines {
     margin: 20px 0 0 0;
@@ -326,8 +364,16 @@ background: -webkit-linear-gradient(left,  rgba(148,39,19,1) 0%,rgba(67,6,3,1) 1
 background: linear-gradient(to right,  rgba(148,39,19,1) 0%,rgba(67,6,3,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#942713', endColorstr='#430603',GradientType=1 ); /* IE6-9 */
 color: #fff;
+    padding-top: 40px;
 }
 #point6 img {
+    width: 50%;
+    float: left;
+}
+#point5 {
+    padding-top: 40px;
+}
+#point5 #shots img {
     width: 50%;
     float: left;
 }
