@@ -292,7 +292,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8df62', end
         
     width: 35%;
 }
-#point2 #wr-gal {
+#point2 #gal1, #point2 #gal2 {
     width: 60%;
     float: right;
         
