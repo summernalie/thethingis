@@ -301,6 +301,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8df62', end
 #point2 p {
     padding: 20px 40px 20px 0;
 }
+#point2 .wr-gal {
+    width: 100%;
+}
 
 #point3 {
     text-align: center;
@@ -379,7 +382,85 @@ color: #fff;
     width: 50%;
     float: left;
 }
-@media screen and (max-width: 991px) {
+#blue {
+    width: 100%;
+}
+
+@media screen and (min-width: 1441px) {
+    .container {
+        width: 1400px;
+    }
+    #intro h1 {
+        top: 240px;
+    }
+    #intro .logo-contain {
+        top: 550px;
+    }
+    #point2 .wr-gal {
+        width: 1400px;
+        margin: auto;
+    }
+    #point2 #gal {
+        
+    }
+    #point2 #gal1, #point2 #gal2 {
+        
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    #intro h1 {
+        top: 100px;
+    }
+    #intro h1 i#shadow, #intro h1 i#upper {
+        font-size: 80px;
+    }
+    #intro .logo-contain {
+        top: 360px;
+    }
+    .wr-logo img {
+        max-height: 300px;
+    }
+    #point2 #gal2 {
+            width: 100%;
+    clear: both;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #intro {
+        min-height: initial;
+    }
+    #intro h1 {
+        top: 40px;
+    }
+    #intro h1 i#shadow, #intro h1 i#upper {
+        font-size: 50px;
+    }
+    #intro h1 span {
+        font-size: 30px;
+        margin-top: 60px;
+    }
+    #intro .logo-contain {
+        top: 280px;
+    }
+    .wr-logo img {
+        max-width: 100%;
+        max-height: 250px;
+    }
+    #point2 #gal2 {
+            width: 100%;
+        clear: both;
+        text-align: center;
+    }
+    #point2 #gal2 img {
+        display: none;
+    }
+}
+
+@media screen  and (max-width: 991px) {
     #menu.shrink h1 {
         font-size: 14px;
         line-height: 18px;
@@ -388,28 +469,77 @@ color: #fff;
 }
 
 @media screen and (max-width: 767px) {
-    
+    p {
+        text-align: center !important;
+    }
     #menu.shrink h1 {
         font-size: 10px;
         line-height: 12px;
     }
     #intro {
         margin-top: 80px;
+        min-height: initial;
     }
     #intro h1 {
-        font-size: 36px;
-        line-height: 42px;
+        margin: 0;
+        top: 90px;
+    }
+    #intro h1 i#shadow, #intro h1 i#upper {
+        font-size: 40px;
+        letter-spacing: 4px;
     }
     #intro h1 span {
-        font-size: 46px;
-        line-height: 50px;
-        margin-bottom: 10px;
+        font-size: 25px;
+        margin-top: 50px;
     }
-    #sec2 img {
+    #intro .logo-contain {
+        top: 280px;
+    }
+    .subheading {
+        font-size: 30px;
+    }
+    .point h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    #sec1 {
+        padding-top: 240px;
+    }
+    .wr-logo img {
+        max-width: 100%;
+        max-height: 250px;
+    }
+    #point2 p {
+        padding: 10px 15px;
+    }
+    #point2 #gal {
+        float: none;
+        width: 100%;
+    }
+    #point2 #gal1, #point2 #gal2 {
+            width: 100%;
+        clear: both;
+        text-align: center;
+    }
+    #point2 #gal2 {
+        width: 100%;
+    }
+    #point2 #gal2 img {
+        width: 100%;
+    }
+    #point5 #shots img,
+    #point6 img {
+        width: 100%;
+        float: none;
+    }
+    #summary iframe {
         width: 100% !important;
-        float: none !important;
     }
-    #sec6 {
-        padding-bottom: 100px;
+}
+
+@media screen and (max-width: 320px) {
+    #intro h1 span {
+        font-size: 24px;
+        margin-top: 90px;
     }
 }
