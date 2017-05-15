@@ -423,9 +423,9 @@ color: #fff;
         max-height: 300px;
     }
     #point2 #gal2 {
-            width: 100%;
+           /* width: 100%;
     clear: both;
-        text-align: center;
+        text-align: center;*/
     }
 }
 
