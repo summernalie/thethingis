@@ -121,20 +121,47 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     position: absolute;
     top: 220px;
     width: 100%;
+    opacity: 1;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
 .logo-contain.fadeout {
     opacity: 0;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+    /*opacity: 0;
+    */
 }
+.logo-contain.fadeout .wr-logo img {
+    
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+.logo-contain.fadeout .logo-left img {
+    
+    margin-right: 200px;
+    
+}
+
+.logo-contain.fadeout .logo-right img {
+    
+    margin-left: 200px;
+}
+.logo-contain.fadeout.fadebackin {
+    opacity: 1;
+}
+.logo-contain.fadeout.fadebackin .wr-logo img {
+    margin: 0 !important;
+}
+
 .wr-logo {
     width: 50%;
     float: left;
 }
 .wr-logo img {
-    max-height: 400px;
+    max-height: 600px;
 }
 .logo-left {
     text-align: right;
@@ -150,7 +177,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     font-family: 'Liberty', 'Garamond', sans-serif;
     top: 140px;
     color: #e5a71c;
-
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    opacity: 0;
+}
+#intro h1.fadein {
+    opacity: 1;
+    top: calc(100vh - 60%);
 }
 #intro h1 i {
     width: 100%;
@@ -265,6 +300,7 @@ img.fullsize {
     font-size: 40px;
     letter-spacing: 4px;
     margin: 40px 0 20px 0;
+    text-align: left;
 }
 #point1 {
     background: rgb(202,216,225);
@@ -293,9 +329,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8df62', end
     background-size: cover;
     opacity: 0.3;
 }
-#point2 h3 {
-    text-align: center;
-}
+
 #point2 #gal {
     float: left;
         
@@ -314,7 +348,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8df62', end
 }
 
 #point3 {
-    text-align: center;
     padding: 30px 0 50px 0;
   /*  
 background: rgb(231,144,117);
@@ -331,9 +364,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e79075', end
 }
 
 #point4 {
-    background: #000;
 color: #fff;
 padding: 40px 0;
+    background: url(../img/ww/bg4.jpg) right center no-repeat;
+    background-size: cover;
 }
 #point4 p {
     margin: 20px 0 0 0;
@@ -347,8 +381,7 @@ padding: 40px 0;
      background-position: top center;
     background-size: 4px 4px, 100%;
     background-repeat: repeat, no-repeat;*/
-    background: url(../img/ww/bg4.jpg) right center no-repeat;
-    background-size: cover;
+    
 }
 .tagline {
     margin: 50px 0;
@@ -396,6 +429,8 @@ color: #fff;
 
 #summary {
     background: url('../img/ww/bg3.jpg');
+    background-size: cover;
+    padding: 50px 0;
 }
 
 @media screen and (min-width: 1441px) {
@@ -432,7 +467,7 @@ color: #fff;
         top: 120px;
     }
     .wr-logo img {
-        max-height: 300px;
+        max-height: 600px;
     }
     #point2 #gal2 {
            /* width: 100%;
