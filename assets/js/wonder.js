@@ -12,11 +12,11 @@ $(document).ready(function () {
             if (distanceY > shrinkOn) {
                 $(".logo-contain").removeClass('fadebackin');
                 $(".logo-contain").addClass('fadeout');
-                
+                $("#intro .overlay").removeClass('darken');
                 $("#intro h1").addClass('fadein');
             } else {
                  
-                
+                $("#intro .overlay").addClass('darken');
                 $("#intro h1").removeClass('fadein');
                 $(".logo-contain").addClass('fadebackin');
                 
