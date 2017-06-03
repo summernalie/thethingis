@@ -203,7 +203,7 @@ body {
 
 
 
-.portion:hover {
+.portion:hover, .portion:active, .portion:focus {
     
     text-decoration: none;
 }
@@ -230,7 +230,7 @@ body {
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-.portion:hover .overlay {
+.portion:porthover .overlay {
     opacity: 0.5;
 }
 
@@ -421,6 +421,28 @@ body {
 }
 .portion11 h2 {
     color: #e5a71c;
+    font-size: 45px;
+    text-shadow: 3px 3px 1px #000;
+}
+
+
+.portion12 {
+    display: block;
+    margin-top: 0;
+    padding-top: 150px;
+     background: url(../img/ww/ww-sands.jpg) no-repeat top center;
+    background: url(../img/silkscreen.svg), url(../img/ww/ww-sands.jpg);
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    /*-webkit-background-size: cover;
+    background-size: cover;*/
+    color: #fff;
+    height: 500px !important;
+    text-decoration: none;
+}
+.portion12 h2 {
+    color: #fb3605;
     font-size: 45px;
     text-shadow: 3px 3px 1px #000;
 }
