@@ -312,6 +312,18 @@ img.fullsize {
     margin: 40px 0 20px 0;
     text-align: left;
 }
+.point h4 {
+    font-family: 'Liberty', 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    opacity: 0.5;
+    font-weight: 300;
+    font-size: 100px;
+    letter-spacing: 4px;
+    text-align: left;
+}
 #point1 {
     background: rgb(202,216,225);
 background: -moz-linear-gradient(left, rgba(202,216,225,1) 0%, rgba(125,185,232,1) 100%);
