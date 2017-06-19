@@ -447,6 +447,27 @@ body {
     text-shadow: 3px 3px 1px #000;
 }
 
+.portion13 {
+    display: block;
+    margin-top: 0;
+    padding-top: 150px;
+     background: url(../img/ww/action.jpg) no-repeat top center;
+    background: url(../img/silkscreen.svg), url(../img/ww/action.jpg);
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    /*-webkit-background-size: cover;
+    background-size: cover;*/
+    color: #fff;
+    height: 500px !important;
+    text-decoration: none;
+}
+.portion13 h2 {
+    color: #fff;
+    font-size: 45px;
+    text-shadow: 3px 3px 1px #fb3605;
+}
+
 /*=====================================
   FOOTER STYLES 
     ===================================*/
