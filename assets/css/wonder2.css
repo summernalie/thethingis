@@ -447,6 +447,12 @@ color: #fff;
     width: 50%;
     float: left;
 }
+/*.best #point6 img:first-child {
+    margin-bottom: 40px;
+}*/
+.best #point6 {
+    padding-bottom: 30px;
+}
 #point5 {
     padding-top: 40px;
 }
