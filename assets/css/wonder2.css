@@ -619,6 +619,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6e89a00', e
     #summary iframe {
         width: 100% !important;
     }
+    .best .point {
+        padding-top: 40px !important;
+    }
+    .point h4 {
+        font-size: 100px;
+        line-height: 100px;
+    }
 }
 
 @media screen and (max-width: 425px) {
