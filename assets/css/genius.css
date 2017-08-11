@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/montserrat/Montserrat-Regular.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat/Montserrat-Bold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/montserrat/Montserrat-ExtraBold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/montserrat/Montserrat-Black.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/montserrat/Montserrat-SemiBold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/montserrat/Montserrat-Light.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/montserrat/Montserrat-UltraLight.ttf');
+    /* IE9 Compat Modes */
+}
+
+body {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+}
+
+
+.header-primary {
+    background: #ffff64;
+    box-sizing: initial;
+    height: 41px;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    margin: 0;
+    border: none;
+}
+
+.navbar-header {
+    margin: 0 auto;
+    position: relative;
+    width: 135px;
+    float: none;
+}
+
+.navbar-header a {
+    box-sizing: border-box;
+    height: 41px;
+    margin: 0;
+    padding: .6rem 0 0 27px;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    width: 135px;
+    text-indent: -9999px;
+}
+
+.navbar-header a:before {
+    background: url(https://assets.genius.com/images/site-sprites-7467d33094e1dad48fc517f1c4b5ce57d48cb19e.png) no-repeat;
+    background-position: -682px -539px;
+    height: 19px;
+    width: 124px;
+    content: '';
+    float: left;
+    width: 124px;
+    height: 19px;
+    position: absolute;
+    left: 6px;
+    top: 11px;
+}
+
+.navbar-secondary {
+    background: #000;
+    margin: 0;
+    border-radius: 0;
+    min-height: auto;
+}
+
+.header-nav_menu {
+    width: 100%;
+    background-color: #000;
+    text-transform: uppercase;
+    font-family: Programme, sans-serif;
+    text-align: center;
+}
+
+.header-nav_menu li {
+    z-index: 3;
+    display: inline-block;
+    position: relative;
+    padding: .5rem 1rem;
+    color: #fff;
+    float: none;
+}
+
+.header-nav_menu li a {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    transition: color .2s;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+    font-size: .875em;
+    min-width: .8em;
+    padding: 0;
+}
+
+.header-nav_menu li a:hover {
+    color: #ffff64;
+    background: none;
+}
+.content {
+    display: inline-block;
+    clear: both;
+    float: left;
+    background: #decafe;
+}
+.content:hover, .content.active {
+    cursor: pointer;
+    background: #88cece;
+}
+#wr-pen {
+    position: relative;
+}
+#pen {
+    background: #efefef;
+    height: 100vh;
+    width: 400px;
+    top: 0;
+    position: absolute;
+    margin-left: -500px;
+    opacity: 0;
+     -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#pen.open {
+    margin-left: 0;
+    opacity: 1;
+}
