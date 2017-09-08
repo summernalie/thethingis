@@ -6,10 +6,11 @@ jQuery(function ($) {
         $("#pen .inner").html($(this).data("pop"))
     });
 
-    $("#pen #close").click(function () {
+    $("#pen #close").click(function (e) {
         $(".content.active").removeClass("active");
         $("#pen").removeClass("open");
         //$("#pen .inner").html('');
+        e.stopPropagation();
     });
 
 

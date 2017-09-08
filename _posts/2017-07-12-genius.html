@@ -17,56 +17,332 @@ sharelink: 'http://samanalie.com/thethingis/heathens-twenty-one-pilots-cover'
 keywords: ''
 ---
 
-
 <header>
     <nav class="navbar header-primary">
+        <div class="wr-search input-group">
+            <input type="text" class="form-control" placeholder="Search lyrics & more">
+            <span class="input-group-addon">
+                <button type="submit">
+                    <span class="fa fa-search"></span>
+            </button>
+            </span>
+        </div>
+        <div class="navbar-right">
+            <a>Sign Up</a>
+            <a>Sign In</a>
+        </div>
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Genius</a>
+            <a class="navbar-brand" href="#">Genius</a>
         </div>
     </nav>
     <nav class="navbar navbar-secondary">
-      <div class="container-fluid">
-        
-        <ul class="nav navbar-nav header-nav_menu">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Page 1</a></li>
-          <li><a href="#">Page 2</a></li>
-          <li><a href="#">Page 3</a></li>
-        </ul>
-      </div>
+        <div class="container-fluid">
+            <div class="text-center">
+                <header-menu-item class="header-nav_menu--hide_when_expand_menu_is_not_available" name="Home">
+
+                    <li class="nav_menu-item" ng-if="url">
+                        <a class="nav_menu-link" href="">Home</a>
+                    </li>
+                </header-menu-item>
+                <header-menu-item name="Featured Stories" url="">
+
+                    <li class="nav_menu-item" ng-if="url">
+                        <a class="nav_menu-link" href="">Featured Stories</a>
+                    </li>
+                </header-menu-item>
+                <header-menu-item name="Top Songs" url="">
+
+                    <li class="nav_menu-item" ng-if="url">
+                        <a class="nav_menu-link" href="">Top Songs</a>
+                    </li>
+                </header-menu-item>
+                <header-menu-item name="Videos" url="">
+
+                    <li class="nav_menu-item" ng-if="url">
+                        <a class="nav_menu-link" href="">Videos</a>
+                    </li>
+                </header-menu-item>
+                <header-menu-item name="Community" url="">
+
+                    <li class="nav_menu-item" ng-if="url">
+                        <a class="nav_menu-link" href="">Community</a>
+                    </li>
+                </header-menu-item>
+
+
+                <span class="nav_menu-item nav_menu-item--separator">|</span>
+                <header-menu-item name="Shop" url="">
+
+                    <li class="nav_menu-item" ng-if="url">
+                        <a class="nav_menu-link" href="">Shop</a>
+                    </li>
+                </header-menu-item>
+
+                <span class="nav_menu-item nav_menu-item--separator">|</span>
+                <li class="nav_menu-item">
+                    <a href="" class="nav_menu-link nav_menu-link--facebook" target="_blank">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                </li>
+                <li class="nav_menu-item">
+                    <a href="" class="nav_menu-link" target="_blank">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                </li>
+                <li class="nav_menu-item">
+                    <a href="" class="nav_menu-link" target="_blank">
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                </li>
+                <li class="nav_menu-item">
+                    <a href="" class="nav_menu-link nav_menu-link--no_right_padding" target="_blank">
+                        <span class="fa fa-youtube-play"></span>
+                    </a>
+                </li>
+
+            </div>
+            <ul class="nav navbar-nav header-nav_menu">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Page 1</a></li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+            </ul>
+        </div>
     </nav>
 </header>
 
 
 <div class="jumbotron">
     <div class="container">
-        <h1>Bootstrap Tutorial</h1>
-        <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="assets/img/genius/albumart.jpg" class="img-responsive"/>
+            </div>
+            <div class="col-sm-9">
+                <h1>Shape of You</h1>
+                <h2>Ed Sheeran</h2>
+                <h3>Produced by <a>Ed Sheeran</a></h3>
+                
+                <div class="wr-artist">
+                    <img src="assets/img/genius/artist.jpg" class="pull-left"/>
+                    <span>Verified commentary &amp; lyrics by</span>
+                    <a>Ed Sheeran</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-  
-    
-    <section class="header-sec" id="home">
-       <div class="container">
-           <div class="row">
-               <div class="col-sm-7">
-                   <h3>Song Lyrics</h3>
-                   <p class="content" data-pop="Friends are the family you choose to keep in your life. And you’ve got the friends that are there since childhood to back you up. But a good friend can walk into your life from nowhere, too.">[Chorus 1]
-                    Once I was 7 years old my momma told me</p>
-                    <p class="content" data-pop="test2">Go make yourself some friends or you'll be lonely</p>
-                    <p class="content" data-pop="test3">Once I was 7 years old</p>
-                   
-               </div>
-               <div class="col-sm-5" id="wr-pen">
-               <div id="pen">
-               <a href="" class="btn" id="close"><span class="fa fa-times"></span></a>
-               <div class="inner"></div>
-           </div>
-               </div>
-           </div>
-           
+
+
+<section class="wr-lyrics" id="home">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">
+                <h3>Song Lyrics</h3>
+                <span>[Verse 1]</span>
+                <p class="content" data-pop="Friends are the family you choose to keep in your life. And you’ve got the friends that are there since childhood to back you up. But a good friend can walk into your life from nowhere, too.">
+                Slow Creeping, calculated breathing <br/>
+                Time keeping, elevated beating <br/>
+                I feel it, something's happening
+                </p>
+                <p class="content" data-pop="test2">
+                    More smiling, a little more whiling
+                </p>
+                <p class="content" data-pop="test2">
+                    Slow climbing, ever more surprising <br/>
+                    But I feel it, something's happening here
+                </p>
+                
+                <span>[Chorus]</span>
+                <p class="content" data-pop="Friends">
+                I'll leave my heart open this time <br/>
+                You can feel free to close it behind you <br/>
+                </p>
+                <p class="content" data-pop="test2">
+                    Free-falling into the unknown <br/>
+                    This feels like, this feels like home
+                </p>
+                
+                <span>[Verse 2]</span>
+                <p class="content" data-pop="Friends">
+                Some waiting, cautious navigating <br/>
+                </p>
+                <p class="content" data-pop="test2">
+                    World growing, even as it's closing in
+                </p>
+                <p>
+                    I know it, something's happening
+                </p>
+                
+                <span>[Bridge]</span>
+                <p class="content" data-pop="Friends">
+                We took our time climbing those walls <br/>
+                    You were so patient through it all <br/>
+                    And every step your hand in mine <br/>
+                    This is our, this is our time
+                </p>
+                
+            </div>
+            <div class="col-sm-5" id="wr-pen">
+                <div id="pen">
+                    <a class="btn" id="close"><span class="fa fa-times"></span></a>
+                    <div class="inner"></div>
+                </div>
+            </div>
         </div>
-    </section>
-    
-    
-   
+
+    </div>
+</section>
+
+<div class="footer">
+    <a href="/about">About Genius</a>
+    <a href="/contributor_guidelines">Contributor Guidelines</a>
+    <a href="/press" target="_blank">Press</a>
+
+    <a href="https://news.genius.com/" class="news_genius">News Genius</a>
+    <a href="https://genius.com/web-annotator" class="annotate_the_web">Annotate the Web</a>
+
+
+
+    <a href="mailto:inquiry@genius.com">Advertise</a>
+
+
+    <a href="">Event Space</a>
+    <a href="" rel="nofollow" target="_blank">Privacy Policy</a>
+    <a href="" rel="nofollow" target="_blank">Licensing</a>
+    <a href="">Jobs</a>
+    <a href="">Developers</a>
+    <a href="" rel="nofollow" target="_blank">Terms of Use</a>
+    <a href="" rel="nofollow" target="_blank">Copyright Policy</a>
+
+    <contact-button><a href="" ng-click="$ctrl.open_contact_form = true" ng-bind="'Contact us'">Contact us</a>
+
+    </contact-button>
+
+    <a href="/login" class="facebox" rel="nofollow">Sign in</a>
+
+
+
+
+    <div>
+        <span class="footer-copyright">© 2017 Genius Media Group Inc.</span>
+    </div>
+</div>
+
+<div class="footer footer--secondary">
+    <a href="" class="footer-artist_links_label">Verified Artists</a>
+
+    <span class="footer-artist_links_label">All Artists:</span>
+    <ul class="characters_index_list">
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">A</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">B</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">C</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">D</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">E</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">F</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">G</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">H</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">I</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">J</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">K</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">L</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">M</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">N</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">O</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">P</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">Q</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">R</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">S</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">T</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">U</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">V</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">W</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">X</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">Y</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">Z</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">#</a>
+        </li>
+
+    </ul>
+
+</div>
