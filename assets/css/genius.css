@@ -197,11 +197,12 @@ body {
     margin-left: 10px;
 }
 .wr-lyrics {
-    margin-bottom: 30px;
     background: #efefef;
 }
 .wr-lyrics .container {
     background: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 .wr-lyrics h3 {
     margin: 0;
@@ -236,7 +237,7 @@ body {
 .content:hover,
 .content.active {
     cursor: pointer;
-    background: #88cece;
+    background: #ffff64;
 }
 #wr-pen {
     position: relative;
@@ -291,7 +292,7 @@ body {
 #pen.open {
     z-index: 1;
     height: 100vh;
-    width: 100%;
+    width: calc(100% - 30px);
     margin-left: 0;
     opacity: 1;
 }
@@ -354,6 +355,20 @@ body {
     position: absolute;
     z-index: 1;
 }
+audio {
+    margin-top: 15px;
+}
+audio::-webkit-media-controls-panel {
+    background: rgba(0, 0, 0, 0.5);
+}
+.jumbotron audio::-webkit-media-controls-play-button:before {
+    background: #99a7ee;
+}
+
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-timeline-container {
+    background: rgba(255, 255, 255, 0.3);
+}
 .jumbotron .container {
     position: relative;
     z-index: 2;
@@ -365,6 +380,7 @@ body {
     line-height: 1.125;
     font-weight: 500;
     color: #ffff64;
+    margin: 10px 0;
 }
 .jumbotron h2 {
     color: #fff !important;
