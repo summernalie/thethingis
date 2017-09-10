@@ -1,5 +1,6 @@
 jQuery(function ($) {
     $(".content").click(function () {
+        $(".content.active").removeClass("active");
         $(this).addClass("active");
         //console.log($(this).data("pop")); 
         $("#pen").addClass("open");
@@ -10,7 +11,7 @@ jQuery(function ($) {
         $(".content.active").removeClass("active");
         $("#pen").removeClass("open");
         //$("#pen .inner").html('');
-        e.stopPropagation();
+       // e.stopPropagation();
     });
 
 
