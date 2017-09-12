@@ -14,7 +14,7 @@ jQuery(function ($) {
             $('#pen .inner').css('margin-top', pos - 400);
         } else {
             $('.annotation_sidebar_arrow').css('margin-top', pos - 350);
-            $('#pen .inner').css('margin-top', pos - 500);
+            $('#pen .inner').css('margin-top', pos - 550);
         }
     });
 
