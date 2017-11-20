@@ -12,6 +12,370 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>Happy Birthday</title>
+	  <link>/thethingis//happy-birthday</link>
+	  <author>Samanalie Dias Jayasinha</author>
+	  <pubDate>2017-09-12T00:00:00+05:30</pubDate>
+	  <guid>/thethingis//happy-birthday</guid>
+	  <description><![CDATA[
+	     <header>
+    <nav class="navbar header-primary">
+        <div class="wr-search input-group">
+            <input type="text" class="form-control" placeholder="Search lyrics & more">
+            <span class="input-group-addon">
+                <button type="submit">
+                    <span class="fa fa-search"></span>
+            </button>
+            </span>
+        </div>
+        <div class="navbar-right">
+            <a>Sign Up</a>
+            <a>Sign In</a>
+        </div>
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Genius</a>
+        </div>
+    </nav>
+    <nav class="navbar navbar-secondary">
+        <div class="container-fluid">
+            <div class="text-center">
+                <header-menu-item class="header-nav_menu--hide_when_expand_menu_is_not_available" name="Home">
+
+                    <li class="nav_menu-item" ng-if="url">
+                        <a class="nav_menu-link" href="">Home</a>
+                    </li>
+                </header-menu-item>
+                <header-menu-item name="Featured Stories" url="">
+
+                    <li class="nav_menu-item" ng-if="url">
+                        <a class="nav_menu-link" href="">Featured Stories</a>
+                    </li>
+                </header-menu-item>
+                <header-menu-item name="Top Songs" url="">
+
+                    <li class="nav_menu-item" ng-if="url">
+                        <a class="nav_menu-link" href="">Top Songs</a>
+                    </li>
+                </header-menu-item>
+                <header-menu-item name="Videos" url="">
+
+                    <li class="nav_menu-item" ng-if="url">
+                        <a class="nav_menu-link" href="">Videos</a>
+                    </li>
+                </header-menu-item>
+                <header-menu-item name="Community" url="">
+
+                    <li class="nav_menu-item" ng-if="url">
+                        <a class="nav_menu-link" href="">Community</a>
+                    </li>
+                </header-menu-item>
+
+
+                <span class="nav_menu-item nav_menu-item--separator">|</span>
+                <header-menu-item name="Shop" url="">
+
+                    <li class="nav_menu-item" ng-if="url">
+                        <a class="nav_menu-link" href="">Shop</a>
+                    </li>
+                </header-menu-item>
+
+                <span class="nav_menu-item nav_menu-item--separator">|</span>
+                <li class="nav_menu-item">
+                    <a href="" class="nav_menu-link nav_menu-link--facebook" target="_blank">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                </li>
+                <li class="nav_menu-item">
+                    <a href="" class="nav_menu-link" target="_blank">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                </li>
+                <li class="nav_menu-item">
+                    <a href="" class="nav_menu-link" target="_blank">
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                </li>
+                <li class="nav_menu-item">
+                    <a href="" class="nav_menu-link nav_menu-link--no_right_padding" target="_blank">
+                        <span class="fa fa-youtube-play"></span>
+                    </a>
+                </li>
+
+            </div>
+           <!-- <ul class="nav navbar-nav header-nav_menu">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Page 1</a></li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+            </ul>-->
+        </div>
+    </nav>
+</header>
+
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="assets/img/genius/albumart.jpg" class="img-responsive"/>
+            </div>
+            <div class="col-sm-9">
+                <audio controls class="pull-right">
+                  <source src="assets/img/genius/intotheunknown.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+                </audio>
+                <h1>Into The Unknown</h1>
+                <h2>Summer</h2>
+                <h3>Produced by <a>Summer</a></h3>
+                
+                <div class="wr-artist">
+                    <img src="assets/img/genius/artist.jpg" class="pull-left"/>
+                    <span>Verified commentary &amp; lyrics by</span>
+                    <a>Summer</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="wr-lyrics" id="home">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7" id="lyrics">
+                <h3>Into The Unknown Lyrics</h3>
+                <span>[Verse 1]</span>
+                <p class="content" data-pop="Sometimes love can sneak up on you, and you slowly start to realize that you have feelings for someone. There's an excitement that goes with it, along with nervousness, and it may take awhile before you realize that you're actually falling in love.">
+                Slow creeping, calculated breathing <br/>
+                Time keeping, elevated beating <br/>
+                I feel it, something's happening
+                </p>
+                <p class="content" data-pop="You can't help but smile when you're around the person you love, and you keep wanting to stretch out the moments that you can spend with them, for just a little while longer. And the relationship gradually escalates as you learn more about each other.">
+                    More smiling, a little more whiling <br/>
+                    Slow climbing, ever more surprising <br/>
+                    I feel it, something's happening here
+                </p>
+                
+                <span>[Chorus]</span>
+                <p class="content" data-pop="To open your heart to someone is to be vulnerable. But when you find the person you want to spend the rest of your life with, there isn't any need to leave the door open anymore, so it might as well be closed behind them.">
+                I'll leave my heart open this time <br/>
+                You can feel free to close it behind you <br/>
+                </p>
+                <p class="content" data-pop="Love comes with a lot of uncertainty and risk, especially at the start because you don't know the other person all that well enough. So it's really a leap of faith, to jump into the unknown. But at the same time, there's a sense of security, and satisfaction, that's extremely welcoming and comforting, so it's easy to make yourself at home amidst the uncertainty of it all.">
+                    Free-falling into the unknown <br/>
+                    This feels like, this feels like home
+                </p>
+                
+                <span>[Verse 2]</span>
+                <p class="content" data-pop="Any new relationship requires care in getting to know one another and not rushing things. If the relationship needs to be kept under the radar, then that requires even more caution, not just with dealing with each other, but also with the people around you.">
+                Some waiting, cautious navigating <br/>
+                </p>
+                <p class="content" data-pop="A relationship widens your perspective, and opens you up to see the world through new eyes. At the same time, your focus narrows in on one person, and they become your whole world. So while it expands your world, it also narrows it down in a sense.">
+                    World growing, even as it's closing in
+                </p>
+                <p>
+                    I know it, something's happening
+                </p>
+                
+                <span>[Bridge]</span>
+                <p class="content" data-pop="Any relationship has obstacles, and sometimes most of those obstacles could be because of one person in the relationship. It takes a truly remarkable partner to have the patience and understanding to get through difficult and trying times like that. But after all the waiting, there's coming a time when everything will finally fall into place, and it'll all have been worth it.">
+                We took our time climbing those walls <br/>
+                    You were so patient through it all <br/>
+                    And every step your hand in mine <br/>
+                    This is our, this is our time
+                </p>
+                
+            </div>
+            <div class="col-sm-5" id="wr-pen">
+                <div id="about">
+                    
+                    <h4>About "Into The Unknown"</h4>
+<div class="wr-artist">
+                        <img src="assets/img/genius/artist.jpg" class="pull-left"/>
+                        <span>artist <i class="fa fa-check-square"></i></span>
+                        <p>Summer</p>
+                    </div>
+<p>"Into The Unknown" is about the experience of falling in love and the juxtaposition of feelings associated with that - uncertainty mixed with excitement and joy.</p>
+
+<p>The song observes the strange mix of emotions at the start of a relationship, that contribute to the exhilaration of new love. But these feelings never really go away all together, and continue in varying degrees even as time passes, and that's what keeps things interesting.</p>
+                </div>
+                <div id="pen">
+                    <div class="annotation_sidebar_arrow">
+                    <svg src="left_arrow.svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.87 21.32"><path d="M9.37 21.32L0 10.66 9.37 0l1.5 1.32-8.21 9.34L10.87 20l-1.5 1.32"></path></svg>
+                    </div>
+                    
+                    <div class="inner">
+                    <div class="wr-artist">
+                        <img src="assets/img/genius/artist.jpg" class="pull-left"/>
+                        <span>artist <i class="fa fa-check-square"></i></span>
+                        <p>Summer</p>
+                    </div>
+                        <div id="meaning"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div class="footer">
+    <a href="/about">About Genius</a>
+    <a href="/contributor_guidelines">Contributor Guidelines</a>
+    <a href="/press" target="_blank">Press</a>
+
+    <a href="https://news.genius.com/" class="news_genius">News Genius</a>
+    <a href="https://genius.com/web-annotator" class="annotate_the_web">Annotate the Web</a>
+
+
+
+    <a href="mailto:inquiry@genius.com">Advertise</a>
+
+
+    <a href="">Event Space</a>
+    <a href="" rel="nofollow" target="_blank">Privacy Policy</a>
+    <a href="" rel="nofollow" target="_blank">Licensing</a>
+    <a href="">Jobs</a>
+    <a href="">Developers</a>
+    <a href="" rel="nofollow" target="_blank">Terms of Use</a>
+    <a href="" rel="nofollow" target="_blank">Copyright Policy</a>
+
+    <contact-button><a href="" ng-click="$ctrl.open_contact_form = true" ng-bind="'Contact us'">Contact us</a>
+
+    </contact-button>
+
+    <a href="/login" class="facebox" rel="nofollow">Sign in</a>
+
+
+
+
+    <div>
+        <span class="footer-copyright">© 2017 Genius Media Group Inc.</span>
+    </div>
+</div>
+
+<div class="footer footer--secondary">
+    <a href="" class="footer-artist_links_label">Verified Artists</a>
+
+    <span class="footer-artist_links_label">All Artists:</span>
+    <ul class="characters_index_list">
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">A</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">B</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">C</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">D</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">E</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">F</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">G</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">H</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">I</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">J</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">K</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">L</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">M</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">N</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">O</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">P</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">Q</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">R</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">S</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">T</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">U</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">V</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">W</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">X</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">Y</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">Z</a>
+        </li>
+
+        <li class="character_index_list-element">
+            <a href="" class="character_index_list-link">#</a>
+        </li>
+
+    </ul>
+
+</div>
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Heathens - Twenty One Pilots (Cover)</title>
 	  <link>/thethingis//heathens-twenty-one-pilots-cover</link>
 	  <author>Samanalie Dias Jayasinha</author>
