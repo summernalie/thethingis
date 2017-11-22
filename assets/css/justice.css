@@ -258,12 +258,20 @@ img.fullsize {
         line-height: 12px;
     }
     #intro {
+        background: #000;
+    }
+    #intro .overlay {
+        background: none;
+    }
+    #intro {
         margin-top: 80px;
         min-height: initial;
     }
     #intro h1 {
+        font-size: 70px;
         margin: 0;
-        top: 90px;
+        top: auto;
+        position: relative;
     }
    
     #intro h1 span {
