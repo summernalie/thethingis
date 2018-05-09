@@ -231,6 +231,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 #summary .overlay {
     background: rgba(187, 187, 187, 0.7);
 }
+#summary p {
+    font-weight: 600;
+}
 
 img.fullsize {
     width: 100%;
