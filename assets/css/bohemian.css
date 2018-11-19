@@ -123,7 +123,7 @@ section .overlay {
     bottom: 0;
 }
 section p {
-    padding: 20px 0;
+    padding: 0;
     font-weight: 200;
     font-size: 18px;
     line-height: 30px;
@@ -279,16 +279,21 @@ img.fullsize {
 }
 
 
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
-    
+@media screen and (max-width: 1024px) {
+    #intro h1 {
+        margin-top: 30px;
+        font-size: 60px;
+        line-height: 60px;
+    }
+    #intro h1 i {
+        font-size: 30px;
+        line-height: 30px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     #intro {
         min-height: initial;
-    }
-    #intro h1 {
-        top: 40px;
     }
   
     #intro h1 span {
@@ -324,15 +329,26 @@ img.fullsize {
         min-height: initial;
     }
     #intro h1 {
-        margin: 0 5px;
-        top: auto;
+        width: 100%;
+        margin: 30px auto 20px auto;
+        left: auto;
+        font-size: 50px;
+/*        top: auto;*/
+/*
         font-size: 60px;
         line-height: 70px;
-        position: relative;
+*/
+/*        position: relative;*/
     }
-   
-    #intro h1 i {
+    #intro h1 span {
         font-size: 40px;
+        margin-bottom: 0;
+    }
+    #intro h1 i {
+        font-size: 30px;
+    }
+    section {
+        padding: 20px 0;
     }
    section span.av {
         font-size: 30px;

@@ -531,6 +531,27 @@ body {
     text-shadow: 3px 3px 1px #000;
 }
 
+.portion17 {
+    display: block;
+    margin-top: 0;
+    padding-top: 100px;
+     background: url(../img/br/intro.jpg) no-repeat top center;
+    background: url(../img/silkscreen.svg), url(../img/br/intro.jpg);
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    /*-webkit-background-size: cover;
+    background-size: cover;*/
+    color: #fff;
+    height: 500px !important;
+    text-decoration: none;
+}
+.portion17 h2 {
+    color: #f4c001;
+    font-size: 45px;
+    text-shadow: 3px 3px 1px #000;
+}
+
 /*=====================================
   FOOTER STYLES 
     ===================================*/
