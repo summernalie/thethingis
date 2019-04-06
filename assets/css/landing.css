@@ -573,6 +573,27 @@ body {
     text-shadow: 3px 3px 1px #1f70c5;
 }
 
+.portion19 {
+    display: block;
+    margin-top: 0;
+    padding-top: 100px;
+     background: url(../img/shazam/intro.jpg) no-repeat top center;
+    background: url(../img/silkscreen.svg), url(../img/shazam/intro.jpg);
+    background-position: top center;
+    background-size: 4px 4px, 100%;
+    background-repeat: repeat, no-repeat;
+    /*-webkit-background-size: cover;
+    background-size: cover;*/
+    color: #fff;
+    height: 500px !important;
+    text-decoration: none;
+}
+.portion19 h2 {
+    color: #f9ff00;
+    font-size: 50px;
+    text-shadow: 3px 3px 1px #dd0000;
+}
+
 /*=====================================
   FOOTER STYLES 
     ===================================*/

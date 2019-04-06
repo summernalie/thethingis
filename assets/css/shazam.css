@@ -1,0 +1,379 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/montserrat/Montserrat-Regular.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat/Montserrat-Bold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/montserrat/Montserrat-ExtraBold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/montserrat/Montserrat-Black.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/montserrat/Montserrat-SemiBold.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/montserrat/Montserrat-Light.ttf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/montserrat/Montserrat-UltraLight.ttf');
+    /* IE9 Compat Modes */
+}
+
+
+
+
+body {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    background-color: #fff;
+    font-weight: 500;
+    color: #15292a;
+}
+.content {
+    background: #fff;
+}
+p {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.25px;
+}
+.bold {
+    font-weight: 700;
+}
+.emph {
+    font-style: italic;
+    
+}
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+#menu {
+    background: #000;
+}
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 70px;
+    color: #fff;
+    line-height: 50px;
+}
+
+.subheading {
+    margin: 0 0 20px 0;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 52px;
+    font-weight: 300;
+}
+section {
+    padding: 50px 0;
+    position: relative;
+    color: #000;
+}
+section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+section p {
+    padding: 0;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+}
+section h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.spacer {
+    max-height: 400px;
+    overflow: hidden;
+}
+section div.av {
+    background: #fff;
+    color: #4a005a;
+}
+section div.jl {
+    background: #000;
+    color: #fff;
+}
+section span.av {
+    padding: 0 5px;
+    display: inline-block;
+    background: #4a005a;
+    color: #fff;
+    font-family: 'Avengance';
+    font-size: 50px;
+    line-height: 45px;
+}
+section span.jl {
+    padding: 0 5px;
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    font-family: 'Justice';
+    font-size: 60px;
+    line-height: 24px;
+
+}
+#intro {
+
+/*    min-height: calc(100vh - 150px);*/
+    padding: 0;
+    margin-top: 150px;
+    color: #000;
+}
+#intro .overlay {
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+#intro > img {
+    width: 100%;
+}
+#intro h1 {
+    line-height: 90px;
+    z-index: 98;
+    position: absolute;
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    top: 0px;
+    left: 40px;
+    font-size: 100px;
+    font-weight: 800;
+    color: #b92809;
+    text-shadow: 2px 2px #fdd05f;
+}
+#intro h1 span {
+    text-shadow: 2px 2px #000;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    color: #fff;
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+#intro h1 i {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 60px;
+    line-height: 50px;
+}
+.mb-3 {
+    margin-bottom: 20px !important;
+}
+#menu.shrink h1 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#sec1 {
+        background: #000;
+    color: #fff;
+}
+
+#sec3 {
+    padding-top: 0;
+}
+#summary {
+    text-align: center;
+    min-height: 300px;
+    background: url('../img/shazam/lightning.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#summary .overlay {
+    background: rgba(255, 255, 255, 0.7);
+}
+#summary p {
+    font-weight: 600;
+}
+
+img.fullsize {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    section div.av,
+    section div.jl {
+        padding: 0;
+    }
+    
+    
+    section div.av p,
+    section div.jl p {
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .container {
+        width: 1400px;
+    }
+    #intro {
+        min-height: calc(100vh - 150px);
+    }
+    #intro h1 {
+        top: 100px;
+    }
+    #intro .logo-contain {
+        top: 550px;
+    }
+    #point2 .wr-gal {
+        width: 1400px;
+        margin: auto;
+    }
+    #point2 #gal {
+        
+    }
+    #point2 #gal1, #point2 #gal2 {
+        
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    #intro h1 {
+        margin-top: 30px;
+        font-size: 60px;
+        line-height: 60px;
+    }
+    #intro h1 i {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #intro {
+        min-height: initial;
+    }
+  
+    #intro h1 span {
+        margin-top: 60px;
+    }
+   
+}
+
+@media screen  and (max-width: 991px) {
+    #menu.shrink h1 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    p {
+        text-align: center !important;
+    }
+    #menu.shrink h1 {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    #intro {
+        background: #000;
+    }
+    #intro .overlay {
+        background: rgba(0, 0, 0, 0.3) !important;
+    }
+    #intro {
+        margin-top: 80px;
+        min-height: initial;
+    }
+    #intro h1 {
+        width: 100%;
+        margin: 30px auto 20px auto;
+        left: auto;
+        font-size: 50px;
+/*        top: auto;*/
+/*
+        font-size: 60px;
+        line-height: 70px;
+*/
+/*        position: relative;*/
+    }
+    #intro h1 span {
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    #intro h1 i {
+        font-size: 30px;
+    }
+    section {
+        padding: 20px 0;
+    }
+   section span.av {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    section span.jl {
+        font-size: 36px;
+        line-height: 42px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    
+    #intro h1 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    #intro h1 span {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    #intro h1 i {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    section p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
