@@ -710,3 +710,13 @@ body {
         top: 7px;
     }
 }
+
+.insta-cta {
+    text-align: center;
+}
+.insta-cta h3 {
+    margin: 0 0 10px 0;
+}
+.insta-cta a {
+    font-size: 20px;
+    font-weight: bold;
